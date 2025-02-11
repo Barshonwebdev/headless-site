@@ -24,7 +24,8 @@ const Test = () => {
           <AllPurposeButton
             className="font-medium bg-black text-white border-black border-2"
             child="Log in"
-          ></AllPurposeButton>
+          ></AllPurposeButton> 
+          
         </div>
       </div>
     </div>

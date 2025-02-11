@@ -15,7 +15,6 @@ const Secondheader = () => {
             className="font-medium bg-white text-black border-black border-2"
             child="Sign Up"
           ></AllPurposeButton>
-          
         </div>
       </div>
         </div>
