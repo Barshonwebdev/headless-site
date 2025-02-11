@@ -1,15 +1,14 @@
 import React from "react";
 
-type textProps = {
-  text: string;
-  size: string;
-  weight: string;
-  decoration: string;
-};
-const Text = ({ text, size, weight, decoration }: textProps) => {
+type textType={
+  className:string,
+  child:string
+}
+
+const Text = ({className,child}:textType) => {
   return (
     <div>
-      <p className={`${size} ${weight} ${decoration}`}>{text}</p>
+      <p className={`${className}`}>{child}</p>
     </div>
   );
 };

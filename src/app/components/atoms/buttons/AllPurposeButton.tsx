@@ -1,16 +1,13 @@
 import React from 'react';
 
 type button={
-    text:string,
-    bgcolor:string,
-    textcolor:string,
-    border:string,
-    fontweight:string
+    className:string,
+    child:string
 }
-const AllPurposeButton = ({text,bgcolor,textcolor,border,fontweight}:button) => {
+const AllPurposeButton = ({className,child}:button) => {
     return (
         <div>
-            <button className={`${bgcolor} ${fontweight} ${textcolor} ${border} px-8 py-3 rounded`}>{text}</button>
+            <button className={`${className} px-8 py-3 rounded`}>{child}</button>
         </div>
     );
 };
