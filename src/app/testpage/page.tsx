@@ -1,9 +1,11 @@
 import React from 'react';
+import ImageComponent from '../components/atoms/Image/ImageComponent';
+import logo from "../../../public/images/Logo.svg"
 
 const Test = () => {
     return (
         <div>
-            test page
+            <ImageComponent source={logo}></ImageComponent>
         </div>
     );
 };
