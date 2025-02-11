@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="my-[16px]">
       <div className="flex items-center justify-between">
-        <ImageComponent source={logo}></ImageComponent>
+        <ImageComponent className="" source={logo}></ImageComponent>
         <div className="flex space-x-8 items-center">
           <Text
             className="underline text-sm"

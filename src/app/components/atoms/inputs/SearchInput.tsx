@@ -1,8 +1,8 @@
 import React from 'react';
 
-const SearchInput = () => {
+const SearchInput = (className :string) => {
     return (
-        <div>
+        <div className={`${className}`}>
             
         </div>
     );

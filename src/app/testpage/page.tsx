@@ -9,31 +9,25 @@ const Test = () => {
   return (
     <div>
       <Width>
-        <div className="flex items-center justify-between">
-          <ImageComponent source={logo}></ImageComponent>
-          <div className="flex space-x-8 items-center">
-            <Text
-              decoration="underline"
-              weight="font-semibold"
-              size="text-sm"
-              text="Contributor Account"
-            ></Text>
-            <AllPurposeButton
-              fontweight="font-medium"
-              bgcolor="bg-white"
-              textcolor="text-black"
-              border="border-black border-2"
-              text="Sign Up"
-            ></AllPurposeButton>
-            <AllPurposeButton
-              fontweight="font-medium"
-              bgcolor="bg-black"
-              textcolor="text-white"
-              border="border-black border-2"
-              text="Log in"
-            ></AllPurposeButton>
-          </div>
+      <div className="my-[16px]">
+      <div className="flex items-center justify-between">
+        <ImageComponent className="" source={logo}></ImageComponent>
+        <div className="flex space-x-8 items-center">
+          <Text
+            className="underline text-sm"
+            child="Contributor Account"
+          ></Text>
+          <AllPurposeButton
+            className="font-medium bg-white text-black border-black border-2"
+            child="Sign Up"
+          ></AllPurposeButton>
+          <AllPurposeButton
+            className="font-medium bg-black text-white border-black border-2"
+            child="Log in"
+          ></AllPurposeButton>
         </div>
+      </div>
+    </div>
       </Width>
     </div>
   );

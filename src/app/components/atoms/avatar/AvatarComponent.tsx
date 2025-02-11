@@ -1,6 +1,6 @@
 import React from 'react';
 
-const IconComponent = (className :string) => {
+const AvatarComponent = (className :string) => {
     return (
         <div className={`${className}`}>
             
@@ -8,4 +8,4 @@ const IconComponent = (className :string) => {
     );
 };
 
-export default IconComponent;
+export default AvatarComponent;
