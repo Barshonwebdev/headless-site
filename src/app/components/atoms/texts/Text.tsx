@@ -1,11 +1,11 @@
 import React from "react";
 
-type textType={
-  className:string,
-  child:string
-}
+type textType = {
+  className: string;
+  child: string;
+};
 
-const Text = ({className,child}:textType) => {
+const Text = ({ className, child }: textType) => {
   return (
     <div>
       <p className={`${className}`}>{child}</p>
