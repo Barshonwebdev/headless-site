@@ -1,14 +1,16 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
+type Props = {
+  source: string;
+};
 
-
-const ImageComponent = ({source}) => {
-    return (
-        <div>
-            <Image alt='' src={source}></Image>
-        </div>
-    );
+const ImageComponent = ({ source }: Props) => {
+  return (
+    <div>
+      <Image className="" alt="" src={source}></Image>
+    </div>
+  );
 };
 
 export default ImageComponent;

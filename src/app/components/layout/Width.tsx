@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Width = () => {
+const Width = ({children}: {children: React.ReactNode}) => {
     return (
-        <div>
-            
+        <div className='mx-[299px]'>
+            {children}
         </div>
     );
 };
