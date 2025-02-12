@@ -7,24 +7,24 @@ import logo from "../../../../../public/images/Logo.svg";
 const Header = () => {
   return (
     <div className="my-[16px]">
-      <div className="flex items-center justify-between">
-        <ImageComponent className="" source={logo}></ImageComponent>
-        <div className="flex space-x-8 items-center">
-          <Text
-            className="underline text-sm"
-            child="Contributor Account"
-          ></Text>
-          <AllPurposeButton
-            className="font-medium bg-white text-black border-black border-2"
-            child="Sign Up"
-          ></AllPurposeButton>
-          <AllPurposeButton
-            className="font-medium bg-black text-white border-black border-2"
-            child="Log in"
-          ></AllPurposeButton>
-        </div>
+    <div className="flex items-center justify-between">
+      <ImageComponent className="" source={logo}></ImageComponent>
+      <div className="flex space-x-8 items-center">
+        <Text
+          className="underline text-sm"
+          child="Contributor Account"
+        ></Text>
+        <AllPurposeButton
+          className="font-medium bg-white text-black border-black border-2 px-8 py-3 rounded"
+          child="Sign Up"
+        ></AllPurposeButton>
+        <AllPurposeButton
+          className="font-medium bg-black text-white border-black border-2 px-8 py-3 rounded"
+          child="Log in"
+        ></AllPurposeButton>
       </div>
     </div>
+  </div>
   );
 };
 

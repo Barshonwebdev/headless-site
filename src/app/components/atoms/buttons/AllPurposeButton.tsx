@@ -7,7 +7,7 @@ type button={
 const AllPurposeButton = ({className,child}:button) => {
     return (
         <div>
-            <button className={`${className} px-8 py-3 rounded`}>{child}</button>
+            <button className={`${className}`}>{child}</button>
         </div>
     );
 };

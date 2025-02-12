@@ -1,11 +1,22 @@
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
-const IconComponent = (className :string) => {
-    return (
-        <div className={`${className}`}>
-            
-        </div>
-    );
+type icon = {
+  className: string;
+  source: string;
+  width: number;
+  height: number;
+};
+const IconComponent = ({ className, source, width, height }: icon) => {
+  return (
+    <Image
+      height={height}
+      width={width}
+      src={source}
+      alt=""
+      className={`${className}`}
+    ></Image>
+  );
 };
 
 export default IconComponent;
