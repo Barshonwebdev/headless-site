@@ -7,7 +7,8 @@ import AllPurposeButton from "../components/atoms/buttons/AllPurposeButton";
 import IconComponent from "../components/atoms/icons/IconComponent";
 import bookmark from "../../../public/icons/bookmark.svg";
 import cart from "../../../public/icons/cart.svg";
-
+import DropdownComponent from "../components/molecules/Dropdown";
+import glitter from "../../../public/icons/glitter.svg";
 const Test = () => {
   return (
     <div>
@@ -40,11 +41,16 @@ const Test = () => {
           <Width>
             {" "}
             <div className="flex  items-center justify-between py-4">
-              <div className="flex items-center space-x-8">
-                <Text className=" text-white" child="IMAGES"></Text>
-                <Text className=" text-white" child="VIDEOS"></Text>
-                <Text className=" text-white" child="AI GENERATED"></Text>
-                <Text className=" text-white" child="BROWSE CONTENT"></Text>
+              <div className="flex text-white items-center space-x-8">
+                <DropdownComponent></DropdownComponent>
+                <Text className=" " child="VIDEOS"></Text>
+                <div className="flex items-center space-x-1">
+                <IconComponent source={glitter} className=""
+                  width={20}
+                  height={20} ></IconComponent>
+                <Text className=" " child="AI GENERATED"></Text>
+                </div>
+                <Text className=" " child="BROWSE CONTENT"></Text>
               </div>
 
               <div className="flex space-x-9">
