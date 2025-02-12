@@ -1,6 +1,5 @@
 import React from 'react';
 import ImageComponent from '../atoms/Image/ImageComponent';
-import Text from '../atoms/texts/Text';
 
 type card={
     imageSource:string,
