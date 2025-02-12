@@ -9,6 +9,7 @@ import bookmark from "../../../public/icons/bookmark.svg";
 import cart from "../../../public/icons/cart.svg";
 import DropdownComponent from "../components/molecules/Dropdown";
 import glitter from "../../../public/icons/glitter.svg";
+import bg from '../../../public/images/banner.svg'
 const Test = () => {
   return (
     <div>
@@ -45,10 +46,13 @@ const Test = () => {
                 <DropdownComponent></DropdownComponent>
                 <Text className=" " child="VIDEOS"></Text>
                 <div className="flex items-center space-x-1">
-                <IconComponent source={glitter} className=""
-                  width={20}
-                  height={20} ></IconComponent>
-                <Text className=" " child="AI GENERATED"></Text>
+                  <IconComponent
+                    source={glitter}
+                    className=""
+                    width={20}
+                    height={20}
+                  ></IconComponent>
+                  <Text className=" " child="AI GENERATED"></Text>
                 </div>
                 <Text className=" " child="BROWSE CONTENT"></Text>
               </div>
@@ -74,6 +78,12 @@ const Test = () => {
             </div>
           </Width>
         </div>
+      </div>
+
+      {/* banner  */}
+      <div className="flex items-center bg-auto h-[484px]  flex-col justify-center" style={{ backgroundImage: `url(${bg.src})` }} >
+        <Text child="Emotions through images." className="text-5xl text-center text-white font-extrabold"></Text>
+        <Text child="Explore our curated collection of premium digital art to inspire your next creative masterpiece." className="text-xl text-white text-center font-normal"></Text>
       </div>
     </div>
   );
