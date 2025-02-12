@@ -19,14 +19,14 @@ const Searchbox = () => {
         </div>
         <SearchInput className=""></SearchInput>
       </div>
-      <div className=" rounded flex items-center p-4  bg-black">
+      <button className=" rounded flex items-center p-4  bg-black">
         <IconComponent
           source={searchicon}
           height={24}
           width={24}
           className=""
         ></IconComponent>
-      </div>
+      </button>
     </div>
   );
 };

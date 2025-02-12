@@ -7,16 +7,16 @@ const SearchSuggest = () => {
         <div className='flex space-x-5 '>
             
             <div className='bg-gray-500 opacity-75 rounded p-1'><Text child='Popular Searches:' className='text-white'></Text></div>
-            <div className='flex items-center space-x-2 bg-gray-900 opacity-75 rounded p-1'><IconComponent className='' height={10} width={20} source={searchIcon}></IconComponent>
-            <Text child='Aesthetic image' className='text-white'></Text></div>
-            <div className='flex items-center space-x-2 bg-gray-900 opacity-75 rounded p-1'>
+            <button className='flex items-center space-x-2 bg-gray-900 opacity-75 rounded p-1'><IconComponent className='' height={10} width={20} source={searchIcon}></IconComponent>
+            <Text child='Aesthetic image' className='text-white'></Text></button>
+            <button className='flex items-center space-x-2 bg-gray-900 opacity-75 rounded p-1'>
             <IconComponent className='' height={10} width={20} source={searchIcon}></IconComponent>
             <Text child='New arrived' className=' text-white'></Text>
-            </div>
-            <div className='flex items-center space-x-2 bg-gray-900 opacity-75 rounded p-1'>
+            </button>
+            <button className='flex items-center space-x-2 bg-gray-900 opacity-75 rounded p-1'>
             <IconComponent className='' height={10} width={20} source={searchIcon}></IconComponent>
             <Text child='Best art' className=' text-white'></Text>
-            </div>
+            </button>
         </div>
     );
 };
