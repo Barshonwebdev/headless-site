@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../organisms/common/Header";
 import Width from "../../layout/Width";
 import Secondheader from "../../organisms/secondheader/Secondheader";
+import Banner from "../../organisms/banner/Banner";
 
 const Homepage = () => {
   return (
@@ -10,6 +11,7 @@ const Homepage = () => {
         <Header></Header>
       </Width>
       <Secondheader></Secondheader>
+      <Banner></Banner>
     </div>
   );
 };

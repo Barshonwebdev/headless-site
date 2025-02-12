@@ -10,6 +10,8 @@ import cart from "../../../public/icons/cart.svg";
 import DropdownComponent from "../components/molecules/Dropdown";
 import glitter from "../../../public/icons/glitter.svg";
 import bg from '../../../public/images/banner.svg'
+import Searchbox from "../components/molecules/Searchbox";
+import SearchSuggest from "../components/molecules/SearchSuggest";
 const Test = () => {
   return (
     <div>
@@ -81,9 +83,12 @@ const Test = () => {
       </div>
 
       {/* banner  */}
-      <div className="flex items-center bg-auto h-[484px]  flex-col justify-center" style={{ backgroundImage: `url(${bg.src})` }} >
+      <div className="flex space-y-8 items-center bg-auto h-[484px]  flex-col justify-center" style={{ backgroundImage: `url(${bg.src})` }} >
         <Text child="Emotions through images." className="text-5xl text-center text-white font-extrabold"></Text>
-        <Text child="Explore our curated collection of premium digital art to inspire your next creative masterpiece." className="text-xl text-white text-center font-normal"></Text>
+        <Text child="Explore our curated collection of premium digital art to inspire your next creative masterpiece." className="text-xl text-white text-center font-normal"></Text> 
+        {/* searchbox  */}
+        <Searchbox></Searchbox>
+        <SearchSuggest></SearchSuggest>
       </div>
     </div>
   );
