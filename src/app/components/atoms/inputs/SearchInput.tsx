@@ -13,11 +13,19 @@ const SearchInput = ({ className }: inputstring) => {
         placeholder="Search for the best asset..."
         type="text"
       />
-      <button className=" rounded flex items-center p-4  bg-black">
+      <button className="hidden md:flex rounded  items-center p-4  bg-black">
         <IconComponent
           source={searchicon}
           height={24}
           width={24}
+          className=""
+        ></IconComponent>
+      </button>
+      <button className="md:hidden rounded flex items-center p-4  bg-black">
+        <IconComponent
+          source={searchicon}
+          height={24}
+          width={50}
           className=""
         ></IconComponent>
       </button>

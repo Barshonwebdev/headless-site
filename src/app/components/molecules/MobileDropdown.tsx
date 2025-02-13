@@ -10,13 +10,14 @@ const handleChange = (value: string) => {
   console.log(`selected ${value}`);
 };
 
-const DropdownComponent = ({ className }: dropdownStyles) => {
+const MobileDropdown = ({ className }: dropdownStyles) => {
   return (
     <div className="">
-      <div>
-        <Space wrap>
+     
+      <div className="block md:hidden">
+      <Space wrap>
           <Select
-            defaultValue="IMAGES"
+            defaultValue=""
             className={className}
             variant="borderless"
             onChange={handleChange}
@@ -32,4 +33,4 @@ const DropdownComponent = ({ className }: dropdownStyles) => {
   );
 };
 
-export default DropdownComponent;
+export default MobileDropdown;
