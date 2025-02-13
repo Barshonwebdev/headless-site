@@ -15,7 +15,7 @@ const Secondheader = () => {
             {" "}
             <div className="flex  items-center justify-between py-4">
               <div className="flex text-white items-center space-x-8">
-                <DropdownComponent></DropdownComponent>
+                <DropdownComponent className='text-white'></DropdownComponent>
                 <Text className=" " child="VIDEOS"></Text>
                 <div className="flex items-center space-x-1">
                 <IconComponent source={glitter} className=""

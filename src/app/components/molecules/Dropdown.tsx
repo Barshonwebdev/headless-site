@@ -1,53 +1,37 @@
-'use client'
+"use client";
 
-import React from 'react';
-import { DownOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Dropdown, Space,theme } from 'antd';
-const { useToken } = theme;
+import React from "react";
+import { Select, Space } from "antd";
 
-const items: MenuProps['items'] = [
-  {
-    label: 'VECTORS',
-    key: '1',
-  },
-  {
-    label: 'PAINTINGS',
-    key: '2',
-  },
- 
-];
+type dropdownColor={
+  className:string
+}
+const handleChange = (value: string) => {
+  console.log(`selected ${value}`);
+};
 
 
-const DropdownComponent = () =>{ 
-    const { token } = useToken();
-    const contentStyle: React.CSSProperties = {
-        backgroundColor: token.colorText,
-        borderRadius: token.borderRadiusLG,
-        boxShadow: token.boxShadowSecondary,
-      };
-      const menuStyle: React.CSSProperties = {
-        color:'white'
-      };
-    return(
-  <Dropdown dropdownRender={(menu) => (
-    <div style={contentStyle}>
-      {React.cloneElement(
-        menu as React.ReactElement<{
-          style: React.CSSProperties;
-        }>,
-        { style: menuStyle }
-      )}
-      
-    </div>
-  )}  menu={{ items }} trigger={['click']}>
-    <a onClick={(e) => e.preventDefault()}>
-      <Space>
-        IMAGES
-        <DownOutlined />
+const DropdownComponent = ({className}:dropdownColor) => {
+  return (
+    <div >
+      <Space wrap>
+        <Select
+          defaultValue="IMAGES"
+          style={{ width: 120 }}
+          className={className}
+          variant="borderless"
+          onChange={handleChange}
+          
+          options={[
+            { value: "IMAGES", label: "IMAGES" },
+            { value: "VECTORS", label: "VECTORS" },
+            { value: "PAINTINGS", label: "PAINTINGS" },
+           
+          ]}
+        />
       </Space>
-    </a>
-  </Dropdown>
-); }
+    </div>
+  );
+};
 
 export default DropdownComponent;
