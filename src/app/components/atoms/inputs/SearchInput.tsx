@@ -9,7 +9,7 @@ const SearchInput = ({ className }: inputstring) => {
   return (
     <div className={`${className}`}>
       <input
-        className="border-0 outline-none"
+        className="border-0 outline-none "
         placeholder="Search for the best asset..."
         type="text"
       />

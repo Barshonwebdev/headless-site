@@ -3,7 +3,7 @@
 import React from "react";
 import { Select, Space } from "antd";
 
-type dropdownColor={
+type dropdownStyles={
   className:string
 }
 const handleChange = (value: string) => {
@@ -11,13 +11,13 @@ const handleChange = (value: string) => {
 };
 
 
-const DropdownComponent = ({className}:dropdownColor) => {
+const DropdownComponent = ({className}:dropdownStyles) => {
   return (
     <div >
       <Space wrap>
         <Select
           defaultValue="IMAGES"
-          style={{ width: 120 }}
+          
           className={className}
           variant="borderless"
           onChange={handleChange}

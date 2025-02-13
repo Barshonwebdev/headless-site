@@ -5,8 +5,8 @@ import imgIcon from "../../../../public/icons/imgIcon.svg";
 import IconComponent from "../atoms/icons/IconComponent";
 const Searchbox = () => {
   return (
-    <div className="flex    ">
-      <div className="flex  space-x-4 items-center bg-white  rounded-md w-[650px]">
+    <div className="md:flex  hidden   ">
+      <div className="flex  space-x-4 items-center bg-white  rounded-md w-[343px] md:w-[650px] ">
         <div className="flex  space-x-2 border-gray-400 px-2 py-1 ms-3 rounded border">
           <IconComponent
             className=""
@@ -14,9 +14,9 @@ const Searchbox = () => {
             width={24}
             source={imgIcon}
           ></IconComponent>
-          <DropdownComponent className="text-black" ></DropdownComponent>
+          <DropdownComponent className="text-black md:w-32 w-20 " ></DropdownComponent>
         </div>
-        <SearchInput className="flex space-x-52 "></SearchInput>
+        <SearchInput className="flex md:space-x-52 "></SearchInput>
       </div>
       
     </div>
