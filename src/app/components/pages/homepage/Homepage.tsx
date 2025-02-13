@@ -8,6 +8,7 @@ import Desktop from "../../layout/Desktop";
 import Mobile from "../../layout/Mobile";
 import MobileHeader from "../../organisms/MobileHeader/MobileHeader";
 import MobileBanner from "../../organisms/banner/MobileBanner";
+import TrendingMobile from "../../organisms/trending/TrendingMobile";
 
 const Homepage = () => {
   return (
@@ -19,7 +20,8 @@ const Homepage = () => {
       <Mobile><MobileHeader></MobileHeader></Mobile>
       <Desktop><Banner></Banner></Desktop>
       <Mobile><MobileBanner></MobileBanner></Mobile>
-      <Width><Trending></Trending></Width>
+      <Desktop><Width><Trending></Trending></Width></Desktop>
+      <Mobile><TrendingMobile></TrendingMobile></Mobile>
     </div>
   );
 };

@@ -6,51 +6,53 @@ import img1 from "../../../../../public/images/trendingimage1.svg";
 import img2 from "../../../../../public/images/trendingimage2.svg";
 import img3 from "../../../../../public/images/trendingimage3.svg";
 import img4 from "../../../../../public/images/trendingimage4.svg";
-const Trending = () => {
+const TrendingMobile = () => {
   return (
     <div className="my-24">
-      <div className="flex justify-between items-center"> 
+      <div className="mb-8"> 
         <Text
           child="Discover Trending Categories"
-          className="text-black font-bold text-4xl text-center"
+          className="text-black font-bold text-3xl text-center"
         ></Text>
-        <AllPurposeButton
-          child="Explore all categories"
-          className="text-sm border-black border p-3 rounded font-semibold"
-        ></AllPurposeButton>
+        
       </div>
-      <div className="flex gap-7 mt-10">
+      <div className="grid gap-x-4 gap-y-10 grid-cols-2 mt-5 mx-4">
         <div className="group">
           <Card imageSource={img1} className=""></Card>
           <Text
+          className="-mt-9 text-white text-center"
             child="Images"
-            className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "
           ></Text>
         </div>
         <div className="group">
           <Card imageSource={img2} className=""></Card>
           <Text
+          className="-mt-9 text-white text-center"
             child="AI Designs"
-            className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "
           ></Text>
         </div>
         <div className="group">
           <Card imageSource={img3} className=""></Card>
           <Text
+          className="-mt-9 text-white text-center"
             child="Paintings"
-            className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "
           ></Text>
         </div>
         <div className="group">
           <Card imageSource={img4} className=""></Card>
           <Text
+          className="-mt-9 text-white text-center"
             child="3D Models"
-            className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "
           ></Text>
         </div>
+        
       </div>
+      <AllPurposeButton
+          child="Explore all categories"
+          className="text-sm flex mx-auto mt-8 border-black border p-3 rounded font-semibold"
+        ></AllPurposeButton>
     </div>
   );
 };
 
-export default Trending;
+export default TrendingMobile;
