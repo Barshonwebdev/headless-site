@@ -4,14 +4,18 @@ import Width from "../../layout/Width";
 import Secondheader from "../../organisms/secondheader/Secondheader";
 import Banner from "../../organisms/banner/Banner";
 import Trending from "../../organisms/trending/Trending";
+import Desktop from "../../layout/Desktop";
+import Mobile from "../../layout/Mobile";
+import MobileHeader from "../../organisms/MobileHeader/MobileHeader";
 
 const Homepage = () => {
   return (
     <div>
-      <Width>
+      <Desktop><Width>
         <Header></Header>
       </Width>
-      <Secondheader></Secondheader>
+      <Secondheader></Secondheader></Desktop>
+      <Mobile><MobileHeader></MobileHeader></Mobile>
       <Banner></Banner>
       <Width><Trending></Trending></Width>
     </div>
