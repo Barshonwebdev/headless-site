@@ -11,10 +11,13 @@ import cart from "../../../public/icons/cart.svg";
 import hamburger from "../../../public/icons/hamburger.svg";
 import glitter from "../../../public/icons/glitter.svg";
 import bg from "../../../public/images/banner.svg";
+import mobilebg from '../../../public/images/mobilebanner.svg'
 import Searchbox from "../components/molecules/Searchbox";
 import SearchSuggest from "../components/molecules/SearchSuggest";
 import Trending from "../components/organisms/trending/Trending";
 import NavigateDropdown from "../components/molecules/NavigationDropdown";
+import Desktop from "../components/layout/Desktop";
+import Mobile from "../components/layout/Mobile";
 const Test = () => {
   return (
     <div>
@@ -135,6 +138,7 @@ const Test = () => {
                   width={20}
                   height={30}
                   source={hamburger}
+                  
                 ></IconComponent>
              </button>
               </div>
@@ -142,10 +146,11 @@ const Test = () => {
           </Width>
         </div>
       </div>
+      
 
       {/* banner  */}
-      <div
-        className="flex space-y-8 items-center bg-auto h-[484px]  flex-col justify-center"
+      <Desktop><div
+        className="flex space-y-8 items-center bg-cover h-[484px]  flex-col justify-center"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
         <Text
@@ -159,7 +164,19 @@ const Test = () => {
         {/* searchbox  */}
         <Searchbox></Searchbox>
         <SearchSuggest></SearchSuggest>
-      </div>
+      </div></Desktop>
+
+      {/* mobile banner  */}
+
+      <Mobile><div className="flex space-y-8 items-center bg-cover h-[484px]  flex-col justify-center" style={{ backgroundImage: `url(${mobilebg.src})` }} >
+      <Text child="Emotions through images." className="text-5xl text-center text-white font-extrabold"></Text>
+      <Text
+        child="Explore our curated collection of premium digital art to inspire your next creative masterpiece."
+        className="text-xl text-white text-center font-normal"
+      ></Text>
+      <Searchbox></Searchbox>
+      <SearchSuggest></SearchSuggest>
+    </div></Mobile>
 
       {/* trending  */}
       <Width>

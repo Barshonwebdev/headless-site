@@ -1,4 +1,9 @@
-import React from "react";
+'use client'
+
+
+import React from 'react';
+// import type { MenuProps } from 'antd';
+// import { Menu } from 'antd';
 import Width from "../../layout/Width";
 import ImageComponent from "../../atoms/Image/ImageComponent";
 import IconComponent from "../../atoms/icons/IconComponent";
@@ -7,7 +12,32 @@ import hamburger from "../../../../../public/icons/hamburger.svg";
 import mobilelogo from "../../../../../public/images/mobilelogo.svg";
 import cart from "../../../../../public/icons/cart.svg";
 
+
+// type MenuItem = Required<MenuProps>['items'][number];
+
+
+// const items: MenuItem[] = [
+//   {
+//     key: 'sub1',
+//     icon: <IconComponent source={hamburger} className='' height={10} width={10} />,
+//     children: [
+//       {
+//         key: 'g1',
+//         label: 'Item 1',
+//         type: 'group',
+//         children: [
+//           { key: '1', label: 'Option 1' },
+//           { key: '2', label: 'Option 2' },
+//         ],
+//       },
+//     ],
+//   },
+  
+// ];
 const MobileHeader = () => {
+  // const onClick: MenuProps['onClick'] = (e) => {
+  //     console.log('click ', e);
+  //   };
   return (
     <div className="bg-black ">
       <div className=" ">
@@ -29,6 +59,14 @@ const MobileHeader = () => {
                 child="Log in"
               ></AllPurposeButton>
               <button>
+                {/* <Menu
+                      onClick={onClick}
+                      style={{ width: 256 }}
+                      defaultSelectedKeys={['1']}
+                      defaultOpenKeys={['sub1']}
+                      mode="inline"
+                      items={items}
+                    /> */}
                 <IconComponent
                   className=""
                   width={20}
