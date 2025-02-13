@@ -5,8 +5,8 @@ import Width from '../../layout/Width';
 import IconComponent from '../../atoms/icons/IconComponent';
 import bookmark from "../../../../../public/icons/bookmark.svg";
 import cart from "../../../../../public/icons/cart.svg";
-import DropdownComponent from '../../molecules/Dropdown';
 import glitter from '../../../../../public/icons/glitter.svg'
+import NavigateDropdown from '../../molecules/NavigationDropdown';
 const Secondheader = () => {
     return (
       <div className="bg-black">
@@ -15,7 +15,7 @@ const Secondheader = () => {
             {" "}
             <div className="flex  items-center justify-between py-4">
               <div className="flex text-white items-center space-x-8">
-                <DropdownComponent className='text-white'></DropdownComponent>
+                <NavigateDropdown ></NavigateDropdown>
                 <Text className=" " child="VIDEOS"></Text>
                 <div className="flex items-center space-x-1">
                 <IconComponent source={glitter} className=""

@@ -7,12 +7,12 @@ import AllPurposeButton from "../components/atoms/buttons/AllPurposeButton";
 import IconComponent from "../components/atoms/icons/IconComponent";
 import bookmark from "../../../public/icons/bookmark.svg";
 import cart from "../../../public/icons/cart.svg";
-import DropdownComponent from "../components/molecules/Dropdown";
 import glitter from "../../../public/icons/glitter.svg";
 import bg from "../../../public/images/banner.svg";
 import Searchbox from "../components/molecules/Searchbox";
 import SearchSuggest from "../components/molecules/SearchSuggest";
 import Trending from "../components/organisms/trending/Trending";
+import NavigateDropdown from "../components/molecules/NavigationDropdown";
 const Test = () => {
   return (
     <div>
@@ -46,7 +46,7 @@ const Test = () => {
             {" "}
             <div className="flex  items-center justify-between py-4">
               <div className="flex text-white items-center space-x-8">
-                <DropdownComponent></DropdownComponent>
+                <NavigateDropdown></NavigateDropdown>
                 <Text className=" " child="VIDEOS"></Text>
                 <div className="flex items-center space-x-1">
                   <IconComponent
