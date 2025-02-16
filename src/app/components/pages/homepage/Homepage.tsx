@@ -9,6 +9,8 @@ import Mobile from "../../layout/Mobile";
 import MobileHeader from "../../organisms/MobileHeader/MobileHeader";
 import MobileBanner from "../../organisms/banner/MobileBanner";
 import TrendingMobile from "../../organisms/trending/TrendingMobile";
+import Explore from "../../organisms/Explore/Explore";
+import ExploreMobile from "../../organisms/Explore/ExploreMobile";
 
 const Homepage = () => {
   return (
@@ -22,6 +24,8 @@ const Homepage = () => {
       <Mobile><MobileBanner></MobileBanner></Mobile>
       <Desktop><Width><Trending></Trending></Width></Desktop>
       <Mobile><TrendingMobile></TrendingMobile></Mobile>
+      <Desktop><Explore></Explore></Desktop>
+      <Mobile><ExploreMobile></ExploreMobile></Mobile>
     </div>
   );
 };
