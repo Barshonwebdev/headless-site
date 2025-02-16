@@ -26,7 +26,7 @@ const SearchInput = ({ className }: inputstring) => {
           source={searchicon}
           height={24}
           width={50}
-          className=""
+          className="" 
         ></IconComponent>
       </button>
     </div>
