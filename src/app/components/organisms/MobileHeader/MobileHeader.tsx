@@ -1,9 +1,11 @@
 'use client'
 
 
-import React from 'react';
 // import type { MenuProps } from 'antd';
 // import { Menu } from 'antd';
+import React, { useState } from 'react';
+import { Drawer } from 'antd';
+
 import Width from "../../layout/Width";
 import ImageComponent from "../../atoms/Image/ImageComponent";
 import IconComponent from "../../atoms/icons/IconComponent";
@@ -35,6 +37,15 @@ import cart from "../../../../../public/icons/cart.svg";
   
 // ];
 const MobileHeader = () => {
+    const [open, setOpen] = useState(false);
+    const showDrawer = () => {
+      setOpen(true);
+    };
+  
+    const onClose = () => {
+      setOpen(false);
+    };
+  
   // const onClick: MenuProps['onClick'] = (e) => {
   //     console.log('click ', e);
   //   };
@@ -67,17 +78,22 @@ const MobileHeader = () => {
                       mode="inline"
                       items={items}
                     /> */}
-                <IconComponent
-                  className=""
+                <button onClick={showDrawer} className=''><IconComponent
+                  className="mt-1"
                   width={20}
                   height={30}
                   source={hamburger}
-                ></IconComponent>
+                ></IconComponent></button>
               </button>
             </div>
           </div>
         </Width>
       </div>
+      <Drawer title="Basic Drawer" onClose={onClose} open={open}>
+              <p>Some contents...</p>
+              <p>Some contents...</p>
+              <p>Some contents...</p>
+            </Drawer>
     </div>
   );
 };
