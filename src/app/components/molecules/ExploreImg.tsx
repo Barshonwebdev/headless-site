@@ -44,7 +44,7 @@ const ExploreImg = ({
           ></ImageComponent>
         </button>
 
-        <button className="absolute md:bottom-32 md:left-36 ">
+        <button className="absolute invisible group-hover:visible bottom-0 top-0 left-0 right-0 flex justify-center items-center ">
           <ImageComponent
             className={arrowclass}
             source={arrowimg}
