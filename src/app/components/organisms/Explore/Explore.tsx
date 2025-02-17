@@ -10,25 +10,115 @@ import img6 from "../../../../../public/images/book.svg";
 import img7 from "../../../../../public/images/ball.svg";
 import img8 from "../../../../../public/images/galaxy.svg";
 import AllPurposeButton from "../../atoms/buttons/AllPurposeButton";
+import arrowimg from "../../../../../public/images/arrow.svg";
+import premiumimg from "../../../../../public/images/premium.svg";
+import bookmarkimg from "../../../../../public/images/bookmark.svg";
 const Explore = () => {
   return (
     <div className=" ">
-      
       {/* desktop view  */}
       <div className=" text-black bgcolor py-20">
         <Text
-          className="text-4xl text-center font-bold mb-10"
+          className="text-4xl text-center font-bold mb-10 top "
           child="Explore A Vast Collection of Digital Art"
         ></Text>
         <div className="grid grid-cols-4">
-          <ExploreImg imgsrc={img1} imgclassname=""></ExploreImg>
-          <ExploreImg imgsrc={img8} imgclassname=""></ExploreImg>
-          <ExploreImg imgsrc={img3} imgclassname=""></ExploreImg>
-          <ExploreImg imgsrc={img4} imgclassname=""></ExploreImg>
-          <ExploreImg imgsrc={img5} imgclassname=""></ExploreImg>
-          <ExploreImg imgsrc={img6} imgclassname=""></ExploreImg>
-          <ExploreImg imgsrc={img7} imgclassname=""></ExploreImg>
-          <ExploreImg imgsrc={img8} imgclassname=""></ExploreImg>
+          <ExploreImg
+            arrowclass=" w-10"
+            bookmarkclass=" "
+            premiumclass=" "
+            arrowimg={arrowimg}
+            bookmarkimg={bookmarkimg}
+            premiumimg={premiumimg}
+            textClassName="text-white "
+            txtChild="Sky view"
+            imgsrc={img1}
+            imgclassname=" "
+          ></ExploreImg>
+          <ExploreImg
+            arrowclass="w-10 "
+            bookmarkclass=" "
+            premiumclass=" "
+            arrowimg={arrowimg}
+            bookmarkimg={bookmarkimg}
+            premiumimg={premiumimg}
+            textClassName="text-white "
+            txtChild="Natural view"
+            imgsrc={img8}
+            imgclassname=" "
+          ></ExploreImg>
+          <ExploreImg
+            arrowclass="w-10 "
+            bookmarkclass=" "
+            premiumclass=" "
+            arrowimg={arrowimg}
+            bookmarkimg={bookmarkimg}
+            premiumimg={premiumimg}
+            textClassName="text-white "
+            txtChild="Digital"
+            imgsrc={img3}
+            imgclassname=" "
+          ></ExploreImg>
+          <ExploreImg
+            arrowclass="w-10 "
+            bookmarkclass=" "
+            premiumclass=" "
+            arrowimg={arrowimg}
+            bookmarkimg={bookmarkimg}
+            premiumimg={premiumimg}
+            textClassName="text-white "
+            txtChild="Sea view"
+            imgsrc={img4}
+            imgclassname=" "
+          ></ExploreImg>
+          <ExploreImg
+            arrowclass="w-10 "
+            bookmarkclass=" "
+            premiumclass=" "
+            arrowimg={arrowimg}
+            bookmarkimg={bookmarkimg}
+            premiumimg={premiumimg}
+            textClassName="text-white "
+            txtChild="Foods"
+            imgsrc={img5}
+            imgclassname=" "
+          ></ExploreImg>
+          <ExploreImg
+            arrowclass="w-10 "
+            bookmarkclass=" "
+            premiumclass=" "
+            arrowimg={arrowimg}
+            bookmarkimg={bookmarkimg}
+            premiumimg={premiumimg}
+            textClassName="text-white "
+            txtChild="Books"
+            imgsrc={img6}
+            imgclassname=" "
+          ></ExploreImg>
+          <ExploreImg
+            arrowclass="w-10 "
+            bookmarkclass=" "
+            premiumclass=" "
+            arrowimg={arrowimg}
+            bookmarkimg={bookmarkimg}
+            premiumimg={premiumimg}
+            textClassName="text-white "
+            txtChild="Sports"
+            imgsrc={img7}
+            imgclassname=" "
+          ></ExploreImg>
+          <ExploreImg
+            arrowclass="w-10 "
+            bookmarkclass=" "
+            premiumclass=" "
+            arrowimg={arrowimg}
+            bookmarkimg={bookmarkimg}
+            premiumimg={premiumimg}
+            textClassName="text-white "
+            txtChild="Astronomy"
+            imgsrc={img8}
+            imgclassname=" "
+          ></ExploreImg>
         </div>
         <div>
           <AllPurposeButton
