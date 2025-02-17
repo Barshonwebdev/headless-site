@@ -89,7 +89,11 @@ const MobileHeader = () => {
           </div>
         </Width>
       </div>
-      <Drawer title="Basic Drawer" onClose={onClose} open={open}>
+      <Drawer   style={{backgroundColor:"black"}} width={500}  title={
+        <div className="flex  items-center justify-between  bg-black">
+        <ImageComponent className="" source={mobilelogo}></ImageComponent>
+      </div>
+      } onClose={onClose} open={open}>
               <p>Some contents...</p>
               <p>Some contents...</p>
               <p>Some contents...</p>
