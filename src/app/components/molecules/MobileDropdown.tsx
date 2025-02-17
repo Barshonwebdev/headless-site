@@ -18,8 +18,8 @@ const MobileDropdown = ({ className }: dropdownStyles) => {
       <Space wrap>
           <Select 
           dropdownStyle={{width:200}}
-            defaultValue=""
             className={className}
+            style={{}}
             variant="borderless"
             onChange={handleChange}
             options={[
