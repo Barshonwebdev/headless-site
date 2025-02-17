@@ -17,10 +17,10 @@ const Searchbox = () => {
             width={24}
             source={imgIcon}
           ></IconComponent>
-          <Desktop><DropdownComponent className="text-black md:w-32 w-20 " ></DropdownComponent></Desktop>
-          <Mobile><MobileDropdown className="text-black w-10 "></MobileDropdown></Mobile>
+          <Desktop><DropdownComponent className="text-black md:w-32  " ></DropdownComponent></Desktop>
+          <Mobile><MobileDropdown className="text-black w-8 "></MobileDropdown></Mobile>
         </div>
-        <SearchInput className="flex md:space-x-52 "></SearchInput>
+        <SearchInput className="flex md:space-x-52  "></SearchInput>
       </div>
       
     </div>

@@ -16,7 +16,8 @@ const MobileDropdown = ({ className }: dropdownStyles) => {
      
       <div className="block md:hidden">
       <Space wrap>
-          <Select
+          <Select 
+          dropdownStyle={{width:200}}
             defaultValue=""
             className={className}
             variant="borderless"
