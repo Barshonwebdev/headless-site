@@ -42,7 +42,7 @@ const ExploreMobile = () => {
             bookmarkimg={bookmarkimg}
             premiumimg={premiumimg}
             textClassName="text-white "
-            txtChild="Sky view"
+            txtChild="Natural view"
             imgsrc={img8}
             imgclassname=" "
           ></ExploreImg>
@@ -54,7 +54,7 @@ const ExploreMobile = () => {
             bookmarkimg={bookmarkimg}
             premiumimg={premiumimg}
             textClassName="text-white "
-            txtChild="Sky view"
+            txtChild="Digital"
             imgsrc={img3}
             imgclassname=" "
           ></ExploreImg>
@@ -66,7 +66,7 @@ const ExploreMobile = () => {
             bookmarkimg={bookmarkimg}
             premiumimg={premiumimg}
             textClassName="text-white "
-            txtChild="Sky view"
+            txtChild="Sea view"
             imgsrc={img4}
             imgclassname=" "
           ></ExploreImg>
@@ -78,7 +78,7 @@ const ExploreMobile = () => {
             bookmarkimg={bookmarkimg}
             premiumimg={premiumimg}
             textClassName="text-white "
-            txtChild="Sky view"
+            txtChild="Foods"
             imgsrc={img5}
             imgclassname=" "
           ></ExploreImg>
@@ -90,7 +90,7 @@ const ExploreMobile = () => {
             bookmarkimg={bookmarkimg}
             premiumimg={premiumimg}
             textClassName="text-white "
-            txtChild="Sky view"
+            txtChild="Books"
             imgsrc={img6}
             imgclassname=" "
           ></ExploreImg>
@@ -102,7 +102,7 @@ const ExploreMobile = () => {
             bookmarkimg={bookmarkimg}
             premiumimg={premiumimg}
             textClassName="text-white "
-            txtChild="Sky view"
+            txtChild="Sports"
             imgsrc={img7}
             imgclassname=" "
           ></ExploreImg>
@@ -114,7 +114,7 @@ const ExploreMobile = () => {
             bookmarkimg={bookmarkimg}
             premiumimg={premiumimg}
             textClassName="text-white "
-            txtChild="Sky view"
+            txtChild="Astronomy"
             imgsrc={img8}
             imgclassname=" "
           ></ExploreImg>
