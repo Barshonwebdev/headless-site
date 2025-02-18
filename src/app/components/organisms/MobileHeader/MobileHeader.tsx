@@ -18,7 +18,7 @@ import glitter from "../../../../../public/icons/glitter.svg";
 import { CloseOutlined } from "@ant-design/icons";
 import NavigateDropdown from "../../molecules/NavigationDropdown";
 import Text from "../../atoms/texts/Text";
-import MobileDrawerMenu from "../../molecules/MobileDrawerMenu";
+// import MobileDrawerMenu from "../../molecules/MobileDrawerMenu";
 
 const MobileHeader = () => {
   const [open, setOpen] = useState(false);
