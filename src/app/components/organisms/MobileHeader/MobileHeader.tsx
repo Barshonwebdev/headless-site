@@ -4,7 +4,7 @@
 // import { Menu } from 'antd';
 import React, { useState } from "react";
 import { Drawer } from "antd";
-import './mobileheader.css'
+import "./mobileheader.css";
 import Width from "../../layout/Width";
 import ImageComponent from "../../atoms/Image/ImageComponent";
 import IconComponent from "../../atoms/icons/IconComponent";
@@ -12,9 +12,12 @@ import AllPurposeButton from "../../atoms/buttons/AllPurposeButton";
 import hamburger from "../../../../../public/icons/hamburger.svg";
 import mobilelogo from "../../../../../public/images/mobilelogo.svg";
 import cart from "../../../../../public/icons/cart.svg";
-import {
-  CloseOutlined
-} from '@ant-design/icons';
+import bookmark from "../../../../../public/icons/bookmark.svg";
+import glitter from "../../../../../public/icons/glitter.svg";
+
+import { CloseOutlined } from "@ant-design/icons";
+import NavigateDropdown from "../../molecules/NavigationDropdown";
+import Text from "../../atoms/texts/Text";
 
 const MobileHeader = () => {
   const [open, setOpen] = useState(false);
@@ -63,22 +66,60 @@ const MobileHeader = () => {
         </Width>
       </div>
       <Drawer
-        style={{ backgroundColor: "#202020", color:"white" }}
+        style={{ backgroundColor: "#202020", color: "white" }}
         width={500}
-        headerStyle={{position:"relative"}}
-        closeIcon={<span style={{display:'none'}}></span>}
+        closeIcon={<span style={{ display: "none" }}></span>}
         title={
           <div className="flex p-4 items-center justify-between  bg-black">
             <ImageComponent className="" source={mobilelogo}></ImageComponent>
             <CloseOutlined onClick={onClose}></CloseOutlined>
           </div>
         }
-        
         open={open}
       >
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
+        <div>
+          <div className="flex flex-col  text-white ">
+            <Text className=" border-b p-4 border-white border-opacity-30" child="HOME"></Text>
+            <div className="border-b p-4 border-white border-opacity-30"><NavigateDropdown></NavigateDropdown></div>
+            <Text className="border-b p-4 border-white border-opacity-30 " child="VIDEOS"></Text>
+            <div className="flex p-4 items-center border-b border-white border-opacity-30 ">
+              <IconComponent
+                source={glitter}
+                className=""
+                width={20}
+                height={20}
+              ></IconComponent>
+              <Text className=" " child="AI GENERATED"></Text>
+            </div>
+            <Text className="border-b p-4 border-white border-opacity-30 " child="BROWSE CONTENT"></Text>
+            <div className="p-4 flex items-center border-b border-white border-opacity-30 ">
+              <IconComponent
+                source={bookmark}
+                className=""
+                width={20}
+                height={20}
+              ></IconComponent>
+              <Text className=" " child="FAVORITES"></Text>
+            </div>
+            <div className="p-4">
+            <AllPurposeButton
+              className=" bg-stone-900 font-semibold text-white border-white border-2 rounded-3xl px-4 py-2"
+              child="Get Involved"
+            ></AllPurposeButton>
+            </div>
+            <div className="p-4 flex flex-col items-center border-t border-white border-opacity-30">
+              <AllPurposeButton
+                className="font-semibold mt-10  bg-stone-900 text-white border-white border-2 rounded  px-10 pt-1 pb-2"
+                child="Sign up"
+              ></AllPurposeButton>
+            </div>
+          </div>
+
+          <Text
+              className="underline mt-3 text-sm text-center"
+              child="Contributor Account"
+            ></Text>
+        </div>
       </Drawer>
     </div>
   );
