@@ -4,7 +4,7 @@
 // import { Menu } from 'antd';
 import React, { useState } from "react";
 import { Drawer } from "antd";
-
+import './mobileheader.css'
 import Width from "../../layout/Width";
 import ImageComponent from "../../atoms/Image/ImageComponent";
 import IconComponent from "../../atoms/icons/IconComponent";
@@ -12,27 +12,10 @@ import AllPurposeButton from "../../atoms/buttons/AllPurposeButton";
 import hamburger from "../../../../../public/icons/hamburger.svg";
 import mobilelogo from "../../../../../public/images/mobilelogo.svg";
 import cart from "../../../../../public/icons/cart.svg";
+import {
+  CloseOutlined
+} from '@ant-design/icons';
 
-// type MenuItem = Required<MenuProps>['items'][number];
-
-// const items: MenuItem[] = [
-//   {
-//     key: 'sub1',
-//     icon: <IconComponent source={hamburger} className='' height={10} width={10} />,
-//     children: [
-//       {
-//         key: 'g1',
-//         label: 'Item 1',
-//         type: 'group',
-//         children: [
-//           { key: '1', label: 'Option 1' },
-//           { key: '2', label: 'Option 2' },
-//         ],
-//       },
-//     ],
-//   },
-
-// ];
 const MobileHeader = () => {
   const [open, setOpen] = useState(false);
   const showDrawer = () => {
@@ -80,14 +63,17 @@ const MobileHeader = () => {
         </Width>
       </div>
       <Drawer
-        style={{ backgroundColor: "black" }}
+        style={{ backgroundColor: "#202020", color:"white" }}
         width={500}
+        headerStyle={{position:"relative"}}
+        closeIcon={<span style={{display:'none'}}></span>}
         title={
-          <div className="flex  items-center justify-between  bg-black">
+          <div className="flex p-4 items-center justify-between  bg-black">
             <ImageComponent className="" source={mobilelogo}></ImageComponent>
+            <CloseOutlined onClick={onClose}></CloseOutlined>
           </div>
         }
-        onClose={onClose}
+        
         open={open}
       >
         <p>Some contents...</p>
