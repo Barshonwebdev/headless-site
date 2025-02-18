@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 
 type Props = {
-  source: string;
+  source: string | StaticImageData;
   className:string
 };
 

@@ -11,6 +11,7 @@ import MobileBanner from "../../organisms/banner/MobileBanner";
 import TrendingMobile from "../../organisms/trending/TrendingMobile";
 import Explore from "../../organisms/Explore/Explore";
 import ExploreMobile from "../../organisms/Explore/ExploreMobile";
+import Smart from "../../organisms/smart/Smart";
 
 const Homepage = () => {
   return (
@@ -26,6 +27,7 @@ const Homepage = () => {
       <Mobile><TrendingMobile></TrendingMobile></Mobile>
       <Desktop><Explore></Explore></Desktop>
       <Mobile><ExploreMobile></ExploreMobile></Mobile>
+      <Smart></Smart>
     </div>
   );
 };
