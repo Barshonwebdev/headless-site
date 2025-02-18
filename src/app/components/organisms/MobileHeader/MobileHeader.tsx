@@ -18,6 +18,7 @@ import glitter from "../../../../../public/icons/glitter.svg";
 import { CloseOutlined } from "@ant-design/icons";
 import NavigateDropdown from "../../molecules/NavigationDropdown";
 import Text from "../../atoms/texts/Text";
+import MobileDrawerMenu from "../../molecules/MobileDrawerMenu";
 
 const MobileHeader = () => {
   const [open, setOpen] = useState(false);
@@ -82,7 +83,7 @@ const MobileHeader = () => {
             <Text className=" border-b p-4 border-white border-opacity-30" child="HOME"></Text>
             <div className="border-b p-4 border-white border-opacity-30"><NavigateDropdown></NavigateDropdown></div>
             <Text className="border-b p-4 border-white border-opacity-30 " child="VIDEOS"></Text>
-            <div className="flex p-4 items-center border-b border-white border-opacity-30 ">
+            <div className="flex p-4 space-x-2 items-center border-b border-white border-opacity-30 ">
               <IconComponent
                 source={glitter}
                 className=""
@@ -92,7 +93,7 @@ const MobileHeader = () => {
               <Text className=" " child="AI GENERATED"></Text>
             </div>
             <Text className="border-b p-4 border-white border-opacity-30 " child="BROWSE CONTENT"></Text>
-            <div className="p-4 flex items-center border-b border-white border-opacity-30 ">
+            <div className="p-4 space-x-2 flex items-center border-b border-white border-opacity-30 ">
               <IconComponent
                 source={bookmark}
                 className=""
