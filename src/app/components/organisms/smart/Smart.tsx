@@ -21,9 +21,9 @@ const Smart = () => {
           ></ImageComponent>
         </div>
         <div className="space-y-8 px-20 w-1/2 ">
-            <SmartParts titletext="Personalized Art Suggestion" titleClass="text-sm font-bold mb-3 " descriptiontext="Receive handpicked digital art suggestions based on your preferences and past downloads." descriptionClass="text-xs font-normal" imgclass="w-10 mb-4" smartimg={smartimg1}></SmartParts>
-            <SmartParts titletext="High Quality & Premium Stock Images" titleClass="text-sm font-bold mb-3 " descriptiontext="Explore a diverse library of stunning premium stock images for all your creative endeavors." descriptionClass="text-xs font-normal" imgclass="w-10 mb-4" smartimg={smartimg2}></SmartParts>
-            <SmartParts titletext="Explore Trending Styles" titleClass="text-sm font-bold mb-3" descriptiontext="Stay ahead of the curve with trending digital art styles and techniques in-demand artistic trends to elevate your creations" descriptionClass="text-xs font-normal" imgclass="w-10 mb-4" smartimg={smartimg3}></SmartParts>
+            <SmartParts titletext="Personalized Art Suggestion" titleClass="text-sm font-bold mb-3 " descriptiontext="Receive handpicked digital art suggestions based on your preferences and past downloads." descriptionClass="text-xs text-gray-600 font-normal" imgclass="w-10 mb-4" smartimg={smartimg1}></SmartParts>
+            <SmartParts titletext="High Quality & Premium Stock Images" titleClass="text-sm font-bold mb-3 " descriptiontext="Explore a diverse library of stunning premium stock images for all your creative endeavors." descriptionClass="text-xs text-gray-600 font-normal" imgclass="w-10 mb-4" smartimg={smartimg2}></SmartParts>
+            <SmartParts titletext="Explore Trending Styles" titleClass="text-sm font-bold mb-3" descriptiontext="Stay ahead of the curve with trending digital art styles and techniques in-demand artistic trends to elevate your creations" descriptionClass="text-xs text-gray-600 font-normal" imgclass="w-10 mb-4" smartimg={smartimg3}></SmartParts>
             
         </div>
       </div>
