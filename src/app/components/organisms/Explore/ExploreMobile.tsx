@@ -21,7 +21,7 @@ const ExploreMobile = () => {
           className="text-3xl text-center font-bold mb-10"
           child="Explore A Vast Collection of Digital Art"
         ></Text>
-        <div className="grid grid-cols-1">
+        <div className="grid grid-cols-1 gap-1">
           <ExploreImg
             arrowclass=" "
             bookmarkclass=" "

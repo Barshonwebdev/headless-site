@@ -1,10 +1,9 @@
-'use client'
-
+"use client";
 
 // import type { MenuProps } from 'antd';
 // import { Menu } from 'antd';
-import React, { useState } from 'react';
-import { Drawer } from 'antd';
+import React, { useState } from "react";
+import { Drawer } from "antd";
 
 import Width from "../../layout/Width";
 import ImageComponent from "../../atoms/Image/ImageComponent";
@@ -14,9 +13,7 @@ import hamburger from "../../../../../public/icons/hamburger.svg";
 import mobilelogo from "../../../../../public/images/mobilelogo.svg";
 import cart from "../../../../../public/icons/cart.svg";
 
-
 // type MenuItem = Required<MenuProps>['items'][number];
-
 
 // const items: MenuItem[] = [
 //   {
@@ -34,18 +31,18 @@ import cart from "../../../../../public/icons/cart.svg";
 //       },
 //     ],
 //   },
-  
+
 // ];
 const MobileHeader = () => {
-    const [open, setOpen] = useState(false);
-    const showDrawer = () => {
-      setOpen(true);
-    };
-  
-    const onClose = () => {
-      setOpen(false);
-    };
-  
+  const [open, setOpen] = useState(false);
+  const showDrawer = () => {
+    setOpen(true);
+  };
+
+  const onClose = () => {
+    setOpen(false);
+  };
+
   // const onClick: MenuProps['onClick'] = (e) => {
   //     console.log('click ', e);
   //   };
@@ -69,35 +66,34 @@ const MobileHeader = () => {
                 className="font-medium text-sm bg-black text-white border-white border-2 py-1 px-4  rounded"
                 child="Log in"
               ></AllPurposeButton>
-              <button>
-                {/* <Menu
-                      onClick={onClick}
-                      style={{ width: 256 }}
-                      defaultSelectedKeys={['1']}
-                      defaultOpenKeys={['sub1']}
-                      mode="inline"
-                      items={items}
-                    /> */}
-                <button onClick={showDrawer} className=''><IconComponent
+
+              <button onClick={showDrawer} className="">
+                <IconComponent
                   className="mt-1"
                   width={20}
                   height={30}
                   source={hamburger}
-                ></IconComponent></button>
+                ></IconComponent>
               </button>
             </div>
           </div>
         </Width>
       </div>
-      <Drawer   style={{backgroundColor:"black"}} width={500}  title={
-        <div className="flex  items-center justify-between  bg-black">
-        <ImageComponent className="" source={mobilelogo}></ImageComponent>
-      </div>
-      } onClose={onClose} open={open}>
-              <p>Some contents...</p>
-              <p>Some contents...</p>
-              <p>Some contents...</p>
-            </Drawer>
+      <Drawer
+        style={{ backgroundColor: "black" }}
+        width={500}
+        title={
+          <div className="flex  items-center justify-between  bg-black">
+            <ImageComponent className="" source={mobilelogo}></ImageComponent>
+          </div>
+        }
+        onClose={onClose}
+        open={open}
+      >
+        <p>Some contents...</p>
+        <p>Some contents...</p>
+        <p>Some contents...</p>
+      </Drawer>
     </div>
   );
 };
