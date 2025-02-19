@@ -12,6 +12,7 @@ import TrendingMobile from "../../organisms/trending/TrendingMobile";
 import Explore from "../../organisms/Explore/Explore";
 import ExploreMobile from "../../organisms/Explore/ExploreMobile";
 import Smart from "../../organisms/smart/Smart";
+import Inspiration from "../../organisms/inspiration/Inspiration";
 
 const Homepage = () => {
   return (
@@ -27,7 +28,8 @@ const Homepage = () => {
       <Mobile><TrendingMobile></TrendingMobile></Mobile>
       <Desktop><Explore></Explore></Desktop>
       <Mobile><ExploreMobile></ExploreMobile></Mobile>
-      <Smart></Smart>
+      <Width><Smart></Smart></Width>
+      <Width><Inspiration></Inspiration></Width>
     </div>
   );
 };
