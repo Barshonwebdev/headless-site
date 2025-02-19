@@ -2,20 +2,36 @@ import React from 'react';
 import Text from '../../atoms/texts/Text';
 import AllPurposeButton from '../../atoms/buttons/AllPurposeButton';
 import Width from '../../layout/Width';
-
+import InspirationCard from '../../molecules/InspirationCard';
+import card1img1 from '../../../../../public/images/Inspiration/card 1/img1.svg'
+import card1img2 from '../../../../../public/images/Inspiration/card 1/img2.svg'
+import card1img3 from '../../../../../public/images/Inspiration/card 1/img3.svg'
+import card2img1 from '../../../../../public/images/Inspiration/card 2/img1.svg'
+import card2img2 from '../../../../../public/images/Inspiration/card 2/img2.svg'
+import card2img3 from '../../../../../public/images/Inspiration/card 2/img3.svg'
+import card3img1 from '../../../../../public/images/Inspiration/card 3/img1.svg'
+import card3img2 from '../../../../../public/images/Inspiration/card 3/img2.svg'
+import card3img3 from '../../../../../public/images/Inspiration/card 3/img3.svg'
 const Inspiration = () => {
     return (
         <div className='py-20' style={{backgroundColor:"#E3FFEC"}}>
             <Width>
-            <div className="flex justify-between items-center"> 
+            <div className="flex justify-between items-center mb-10"> 
         <Text
           child="Collect Your Daily Inspiration "
-          className="text-black font-bold text-4xl text-center"
+          className="text-black font-bold text-xl  lg:text-4xl text-center"
         ></Text>
         <AllPurposeButton
           child="Explore collection"
-          className="text-sm border-black border p-3 rounded font-semibold"
+          className="text-sm hidden lg:block border-black border p-3 rounded font-semibold"
         ></AllPurposeButton>
+      </div>
+
+      {/* cards  */}
+      <div className='flex gap-7'>
+        <InspirationCard categoryText='Aesthetic' img1={card1img1} img2={card1img2} img3={card1img3}></InspirationCard>
+        <InspirationCard categoryText='Nature' img1={card2img1} img2={card2img2} img3={card2img3}></InspirationCard>
+        <InspirationCard categoryText='Miscellaneous' img1={card3img1} img2={card3img2} img3={card3img3}></InspirationCard>
       </div>
             </Width>
         </div>

@@ -10,7 +10,7 @@ const Card = ({ imageSource, className }: card) => {
     <div>
       <ImageComponent
         className={className}
-        source={imageSource} 
+        source={imageSource}
       ></ImageComponent>
     </div>
   );
