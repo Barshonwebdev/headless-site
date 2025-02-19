@@ -13,6 +13,7 @@ import Explore from "../../organisms/Explore/Explore";
 import ExploreMobile from "../../organisms/Explore/ExploreMobile";
 import Smart from "../../organisms/smart/Smart";
 import Inspiration from "../../organisms/inspiration/Inspiration";
+import Weekly from "../../organisms/weekly/Weekly";
 
 const Homepage = () => {
   return (
@@ -30,6 +31,7 @@ const Homepage = () => {
       <Mobile><ExploreMobile></ExploreMobile></Mobile>
       <Width><Smart></Smart></Width>
       <Inspiration></Inspiration>
+      <Weekly></Weekly>
     </div>
   );
 };
