@@ -11,7 +11,7 @@ const Weekly = () => {
     return (
         <div className='py-20'>
             <Text
-          className="text-3xl text-center font-bold mb-10  "
+          className="text-3xl lg:text-4xl text-center lg:font-extrabold font-bold mb-10  "
           child="Best Weekly Contributor Assets Only for You"
         ></Text>
         <div className='grid lg:grid-cols-4 grid-cols-2'>
