@@ -29,7 +29,7 @@ const Homepage = () => {
       <Desktop><Explore></Explore></Desktop>
       <Mobile><ExploreMobile></ExploreMobile></Mobile>
       <Width><Smart></Smart></Width>
-      <Width><Inspiration></Inspiration></Width>
+      <Inspiration></Inspiration>
     </div>
   );
 };
