@@ -16,10 +16,10 @@ const Inspiration = () => {
     return (
         <div className='py-20' style={{backgroundColor:"#E3FFEC"}}>
             <Width>
-            <div className="flex justify-between items-center mb-10"> 
+            <div className="flex lg:justify-between justify-center items-center mb-10"> 
         <Text
           child="Collect Your Daily Inspiration "
-          className="text-black font-bold text-xl  lg:text-4xl text-center"
+          className="text-black font-bold text-3xl  lg:text-4xl text-center "
         ></Text>
         <AllPurposeButton
           child="Explore collection"
@@ -28,10 +28,16 @@ const Inspiration = () => {
       </div>
 
       {/* cards  */}
-      <div className='flex gap-7'>
+      <div className='flex flex-col lg:flex-row gap-7'>
         <InspirationCard categoryText='Aesthetic' img1={card1img1} img2={card1img2} img3={card1img3}></InspirationCard>
         <InspirationCard categoryText='Nature' img1={card2img1} img2={card2img2} img3={card2img3}></InspirationCard>
         <InspirationCard categoryText='Miscellaneous' img1={card3img1} img2={card3img2} img3={card3img3}></InspirationCard>
+      </div>
+      <div>
+      <AllPurposeButton
+          child="Explore collection"
+          className="text-sm block mx-auto mt-8 md:hidden border-black border py-3 px-5 rounded font-semibold"
+        ></AllPurposeButton>
       </div>
             </Width>
         </div>
