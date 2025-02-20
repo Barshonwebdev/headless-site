@@ -19,7 +19,7 @@ const Download = () => {
                 </div>
                 
 
-            <div className='relative w-fit  '>
+            <div className='w-fit  '>
                 <ImageComponent className='' source={mobileimg}></ImageComponent>
             </div>
         </div>
