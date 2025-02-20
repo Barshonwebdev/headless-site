@@ -55,7 +55,7 @@ const Weekly = () => {
 <div>
           <AllPurposeButton
             className="font-medium flex mx-auto bg-white lg:bg-black text-black lg:text-white border-black border-2 px-10 py-2 mt-10 rounded"
-            child="Explore all contributors"
+            child="Explore all Contributors"
           ></AllPurposeButton>
         </div>
         </div>
