@@ -16,6 +16,7 @@ import Inspiration from "../../organisms/inspiration/Inspiration";
 import Weekly from "../../organisms/weekly/Weekly";
 import Download from "../../organisms/download/Download";
 import Insight from "../../organisms/insights/Insight";
+import BecomeContributor from "../../organisms/becomeContributor/BecomeContributor";
 
 const Homepage = () => {
   return (
@@ -36,6 +37,7 @@ const Homepage = () => {
       <Weekly></Weekly>
       <Download></Download>
       <Width><Insight></Insight></Width>
+      <BecomeContributor></BecomeContributor>
     </div>
   );
 };
