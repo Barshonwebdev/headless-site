@@ -8,10 +8,12 @@ import applestorebadge from "../../../../../public/images/applestorebadge.svg";
 import fbicon from '../../../../../public/images/fb.svg'
 import xicon from '../../../../../public/images/x.svg'
 import instaicon from '../../../../../public/images/insta.svg'
+import sponsors from '../../../../../public/images/sponsors.svg'
+import footerbg from '../../../../../public/images/footerbg.svg'
 import Link from "next/link";
 const Footer = () => {
   return (
-    <div className="bg-black h-[525px]">
+    <div className="bg-black h-[600px] relative">
       <Width>
         <div className="text-white pt-24 flex justify-between">
           <div className="">
@@ -122,7 +124,28 @@ const Footer = () => {
             </div>
           
         </div>
-      </Width>
+        </Width>
+        {/* sponsors  */}
+        <div className="mt-8  ">
+            <div className=" ">
+            <p className="text-gray-300 text-center mb-2">Powered by</p>
+            <ImageComponent className="mx-auto rounded w-[650px]" source={sponsors}></ImageComponent>
+            </div>
+        </div>
+
+        {/* copyright  */}
+        <div className="absolute bottom-0">
+          
+          <div className="">
+          <ImageComponent className="" source={footerbg}></ImageComponent>
+          <Width><div className="text-gray-500 text-sm relative flex justify-between ">
+          <p className="absolute bottom-0 ">© 2024 DESIGN FOR EVERYONE, ALL RIGHTS RESERVED BY ICT DIVISION</p>
+          <p className="absolute bottom-0 right-0">Technical support by <span className="underline"><Link href=''>Headless Technologies Ltd.</Link></span></p>
+          </div></Width>
+          </div>
+          
+        </div>
+      
     </div>
   );
 };
