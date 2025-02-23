@@ -17,6 +17,7 @@ import Weekly from "../../organisms/weekly/Weekly";
 import Download from "../../organisms/download/Download";
 import Insight from "../../organisms/insights/Insight";
 import BecomeContributor from "../../organisms/becomeContributor/BecomeContributor";
+import Footer from "../../organisms/common/Footer";
 
 const Homepage = () => {
   return (
@@ -38,6 +39,7 @@ const Homepage = () => {
       <Download></Download>
       <Width><Insight></Insight></Width>
       <BecomeContributor></BecomeContributor>
+      <Footer></Footer>
     </div>
   );
 };
