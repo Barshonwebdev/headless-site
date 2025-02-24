@@ -13,7 +13,7 @@ import footerbg from '../../../../../public/images/footerbg.svg'
 import Link from "next/link";
 const Footer = () => {
   return (
-    <div className="bg-black lg:h-[600px] h-[900px] relative"> 
+    <div className="bg-black lg:h-[600px] h-[950px] relative"> 
       <Width>
         <div className="text-white lg:pt-24 pt-8 flex flex-wrap lg:flex-nowrap lg:justify-between mb-20 lg:mb-0">
           <div className="lg:me-28 mb-8 lg:mb-0">
@@ -141,8 +141,8 @@ const Footer = () => {
           <div className="">
           <ImageComponent className="" source={footerbg}></ImageComponent>
           <Width><div className="text-gray-500 text-sm relative flex flex-col lg:flex-row justify-between ">
-          <p className="absolute bottom-0 ">© 2024 DESIGN FOR EVERYONE, ALL RIGHTS RESERVED BY ICT DIVISION</p>
-          <p className="absolute bottom-0 right-0">Technical support by <span className="underline"><Link href=''>Headless Technologies Ltd.</Link></span></p>
+          <p className="lg:absolute lg:bottom-0 text-xs lg:text-base text-center lg:text-left mb-5 lg:mb-0 ">© 2024 DESIGN FOR EVERYONE, ALL RIGHTS RESERVED BY ICT DIVISION</p>
+          <p className="lg:absolute lg:bottom-0 right-0 text-xs lg:text-base text-center lg:text-left mb-5 lg:mb-0">Technical support by <span className="underline"><Link href=''>Headless Technologies Ltd.</Link></span></p>
           </div></Width>
           </div>
           
