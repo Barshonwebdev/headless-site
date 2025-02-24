@@ -13,7 +13,7 @@ import footerbg from '../../../../../public/images/footerbg.svg'
 import Link from "next/link";
 const Footer = () => {
   return (
-    <div className="bg-black lg:h-[600px] h-[900px] relative">
+    <div className="bg-black lg:h-[600px] h-[900px] relative"> 
       <Width>
         <div className="text-white lg:pt-24 pt-8 flex flex-wrap lg:flex-nowrap lg:justify-between mb-20 lg:mb-0">
           <div className="lg:me-28 mb-8 lg:mb-0">
