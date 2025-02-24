@@ -139,7 +139,7 @@ const Footer = () => {
         <div className="absolute bottom-0">
           
           <div className="">
-          <ImageComponent className="" source={footerbg}></ImageComponent>
+          <ImageComponent className="hidden lg:block" source={footerbg}></ImageComponent>
           <Width><div className="text-gray-500 text-sm relative flex flex-col lg:flex-row justify-between ">
           <p className="lg:absolute lg:bottom-0 text-xs lg:text-base text-center lg:text-left mb-5 lg:mb-0 ">© 2024 DESIGN FOR EVERYONE, ALL RIGHTS RESERVED BY ICT DIVISION</p>
           <p className="lg:absolute lg:bottom-0 right-0 text-xs lg:text-base text-center lg:text-left mb-5 lg:mb-0">Technical support by <span className="underline"><Link href=''>Headless Technologies Ltd.</Link></span></p>
