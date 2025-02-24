@@ -13,18 +13,19 @@ import footerbg from '../../../../../public/images/footerbg.svg'
 import Link from "next/link";
 const Footer = () => {
   return (
-    <div className="bg-black h-[600px] relative">
+    <div className="bg-black lg:h-[600px] h-[900px] relative">
       <Width>
-        <div className="text-white pt-24 flex justify-between">
-          <div className="">
+        <div className="text-white lg:pt-24 pt-8 flex flex-wrap lg:flex-nowrap lg:justify-between mb-20 lg:mb-0">
+          <div className="lg:me-28 mb-8 lg:mb-0">
             <ImageComponent
-              className="mb-2"
+              className="mb-2 "
               source={designerlogo}
             ></ImageComponent>
           </div>
           
-            {/* content  */}
-            <div className="flex space-x-2">
+           <div className="grid grid-cols-2 gap-y-8 gap-x-2 w-full lg:flex  lg:justify-between">
+             {/* content  */}
+             <div className="flex space-x-2">
               <ImageComponent className="" source={bluedash}></ImageComponent>
               <div>
                 <p className="font-bold mb-5">CONTENT</p>
@@ -122,14 +123,15 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+           </div>
           
         </div>
         </Width>
         {/* sponsors  */}
-        <div className="mt-8  ">
+        <div className="lg:mt-8  ">
             <div className=" ">
             <p className="text-gray-300 text-center mb-2">Powered by</p>
-            <ImageComponent className="mx-auto rounded w-[650px]" source={sponsors}></ImageComponent>
+            <ImageComponent className="mx-auto lg:rounded rounded-sm w-[340px] lg:w-[650px]" source={sponsors}></ImageComponent>
             </div>
         </div>
 
@@ -138,7 +140,7 @@ const Footer = () => {
           
           <div className="">
           <ImageComponent className="" source={footerbg}></ImageComponent>
-          <Width><div className="text-gray-500 text-sm relative flex justify-between ">
+          <Width><div className="text-gray-500 text-sm relative flex flex-col lg:flex-row justify-between ">
           <p className="absolute bottom-0 ">© 2024 DESIGN FOR EVERYONE, ALL RIGHTS RESERVED BY ICT DIVISION</p>
           <p className="absolute bottom-0 right-0">Technical support by <span className="underline"><Link href=''>Headless Technologies Ltd.</Link></span></p>
           </div></Width>
