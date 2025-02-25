@@ -16,7 +16,7 @@ const Secondheader = () => {
           {" "}
           <div className="flex  items-center justify-between py-4">
             <div className="flex text-white items-center space-x-8">
-              <NavigateDropdown></NavigateDropdown>
+              <button><NavigateDropdown></NavigateDropdown></button>
               <Link href={""}>
                 <Text className=" " child="VIDEOS"></Text>
               </Link>
