@@ -34,10 +34,10 @@ const Secondheader = () => {
               </Link>
             </div>
             <div className="flex space-x-9 items-center">
-              <AllPurposeButton
-                className="font-medium bg-black text-white border-white border-2 rounded-3xl px-4 py-2"
+              <span className="bg-gradient-to-r from-purple-600 to-orange-400 rounded-3xl p-[2px]"><AllPurposeButton
+                className="font-medium bg-black text-white rounded-3xl px-4 py-2"
                 child="Get Involved"
-              ></AllPurposeButton>
+              ></AllPurposeButton></span>
               <Link href={""}>
                 <IconComponent
                   className=""
