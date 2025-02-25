@@ -73,7 +73,7 @@ const MobileHeader = () => {
         closeIcon={<span style={{ display: "none" }}></span>}
         title={
           <div className="flex p-4 items-center justify-between  bg-black">
-            <ImageComponent className="" source={mobilelogo}></ImageComponent>
+            <Link href=''><ImageComponent className="" source={mobilelogo}></ImageComponent></Link>
             <CloseOutlined onClick={onClose}></CloseOutlined>
           </div>
         }
@@ -81,10 +81,10 @@ const MobileHeader = () => {
       >
         <div>
           <div className="flex flex-col  text-white ">
-            <Text className=" border-b p-4 border-white border-opacity-30" child="HOME"></Text>
+            <Link href={''}><Text className=" border-b p-4 border-white border-opacity-30" child="HOME"></Text></Link>
             <div className="border-b p-4 border-white border-opacity-30"><NavigateDropdown></NavigateDropdown></div>
-            <Text className="border-b p-4 border-white border-opacity-30 " child="VIDEOS"></Text>
-            <div className="flex p-4 space-x-2 items-center border-b border-white border-opacity-30 ">
+            <Link href={''}><Text className="border-b p-4 border-white border-opacity-30 " child="VIDEOS"></Text></Link>
+            <Link href='' className="flex p-4 space-x-2 items-center border-b border-white border-opacity-30 ">
               <IconComponent
                 source={glitter}
                 className=""
@@ -92,9 +92,9 @@ const MobileHeader = () => {
                 height={20}
               ></IconComponent>
               <Text className=" " child="AI GENERATED"></Text>
-            </div>
-            <Text className="border-b p-4 border-white border-opacity-30 " child="BROWSE CONTENT"></Text>
-            <div className="p-4 space-x-2 flex items-center border-b border-white border-opacity-30 ">
+            </Link>
+            <Link href={''}><Text className="border-b p-4 border-white border-opacity-30 " child="BROWSE CONTENT"></Text></Link>
+            <Link href='' className="p-4 space-x-2 flex items-center border-b border-white border-opacity-30 ">
               <IconComponent
                 source={bookmark}
                 className=""
@@ -102,12 +102,12 @@ const MobileHeader = () => {
                 height={20}
               ></IconComponent>
               <Text className=" " child="FAVORITES"></Text>
-            </div>
+            </Link>
             <div className="p-4">
-            <AllPurposeButton
-              className=" bg-stone-900 font-semibold text-white border-white border-2 rounded-3xl px-4 py-2"
-              child="Get Involved"
-            ></AllPurposeButton>
+            <div className="bg-gradient-to-r from-purple-600 to-orange-400 rounded-3xl inline-block p-[2px]"><AllPurposeButton
+                className=" bg-[#202020] text-white font-bold rounded-3xl ps-4 pe-5 py-2"
+                child="Get Involved"
+              ></AllPurposeButton></div>
             </div>
             <div className="p-4 flex flex-col items-center border-t border-white border-opacity-30">
               <AllPurposeButton
@@ -115,12 +115,13 @@ const MobileHeader = () => {
                 child="Sign up"
               ></AllPurposeButton>
             </div>
-          </div>
-
-          <Text
+            <Link href={''}> <Text
               className="underline mt-3 text-sm text-center"
               child="Contributor Account"
-            ></Text>
+            ></Text></Link>
+          </div>
+
+         
         </div>
       </Drawer>
     </div>
