@@ -18,6 +18,7 @@ import glitter from "../../../../../public/icons/glitter.svg";
 import { CloseOutlined } from "@ant-design/icons";
 import NavigateDropdown from "../../molecules/NavigationDropdown";
 import Text from "../../atoms/texts/Text";
+import Link from "next/link";
 // import MobileDrawerMenu from "../../molecules/MobileDrawerMenu";
 
 const MobileHeader = () => {
@@ -39,7 +40,7 @@ const MobileHeader = () => {
         <Width>
           {" "}
           <div className="flex  items-center justify-between py-4">
-            <ImageComponent className="" source={mobilelogo}></ImageComponent>
+            <Link href={'/'}><ImageComponent className="" source={mobilelogo}></ImageComponent></Link>
             <div className="flex space-x-4 ml-2">
               <button>
                 <IconComponent
