@@ -115,12 +115,14 @@ const MobileHeader = () => {
                 child="Sign up"
               ></AllPurposeButton>
             </div>
-            <Link href={''}> <Text
-              className="underline mt-3 text-sm text-center"
+            
+          </div>
+          <div className="flex justify-center">
+          <Link href={''}> <Text
+              className="underline mt-3 text-sm text-center "
               child="Contributor Account"
             ></Text></Link>
           </div>
-
          
         </div>
       </Drawer>
