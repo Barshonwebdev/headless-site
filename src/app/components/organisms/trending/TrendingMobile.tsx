@@ -6,6 +6,7 @@ import img2 from "../../../../../public/images/trendingimage2.svg";
 import img3 from "../../../../../public/images/trendingimage3.svg";
 import img4 from "../../../../../public/images/trendingimage4.svg";
 import ImageComponent from "../../atoms/Image/ImageComponent";
+import Link from "next/link";
 const TrendingMobile = () => {
   return (
     <div className="my-24">
@@ -17,34 +18,34 @@ const TrendingMobile = () => {
         
       </div>
       <div className="grid gap-x-4 gap-y-10 grid-cols-2 mt-5 mx-4">
-        <div className="group">
+      <Link href='' className="group">
         <ImageComponent source={img1} className=""></ImageComponent>
           <Text
           className="-mt-9 text-white text-center"
             child="Images"
           ></Text>
-        </div>
-        <div className="group">
+        </Link>
+        <Link href='' className="group">
         <ImageComponent source={img2} className=""></ImageComponent>
           <Text
           className="-mt-9 text-white text-center"
             child="AI Designs"
           ></Text>
-        </div>
-        <div className="group">
+        </Link>
+        <Link href='' className="group">
         <ImageComponent source={img3} className=""></ImageComponent>
           <Text
           className="-mt-9 text-white text-center"
             child="Paintings"
           ></Text>
-        </div>
-        <div className="group">
+        </Link>
+        <Link href='' className="group">
         <ImageComponent source={img4} className=""></ImageComponent>
           <Text
           className="-mt-9 text-white text-center"
             child="3D Models"
           ></Text>
-        </div>
+        </Link>
         
       </div>
       <AllPurposeButton
