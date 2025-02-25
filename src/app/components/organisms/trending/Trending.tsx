@@ -10,7 +10,7 @@ import Link from "next/link";
 const Trending = () => {
   return (
     <div className="my-24">
-      <div className="flex justify-between items-center"> 
+      <div className="flex justify-between items-center">
         <Text
           child="Discover Trending Categories"
           className="text-black font-bold text-4xl text-center"
@@ -21,29 +21,29 @@ const Trending = () => {
         ></AllPurposeButton>
       </div>
       <div className="flex gap-7 mt-10">
-        <Link href='' className="group">
+        <Link href="" className="group">
           <ImageComponent source={img1} className=""></ImageComponent>
           <Text
             child="Images"
             className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "
           ></Text>
         </Link>
-        <Link href='' className="group">
-        <ImageComponent source={img2} className=""></ImageComponent>
+        <Link href="" className="group">
+          <ImageComponent source={img2} className=""></ImageComponent>
           <Text
             child="AI Designs"
             className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "
           ></Text>
         </Link>
-        <Link href='' className="group">
-        <ImageComponent source={img3} className=""></ImageComponent>
+        <Link href="" className="group">
+          <ImageComponent source={img3} className=""></ImageComponent>
           <Text
             child="Paintings"
             className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "
           ></Text>
         </Link>
-        <Link href='' className="group">
-        <ImageComponent source={img4} className=""></ImageComponent>
+        <Link href="" className="group">
+          <ImageComponent source={img4} className=""></ImageComponent>
           <Text
             child="3D Models"
             className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "

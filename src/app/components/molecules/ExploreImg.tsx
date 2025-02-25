@@ -51,7 +51,7 @@ const ExploreImg = ({
           ></ImageComponent>
         </button>
         <div className="absolute bottom-4 left-4 bg-gray-900 px-3 bg-opacity-60 rounded py-1">
-        <Text className={textClassName} child={txtChild}></Text>
+          <Text className={textClassName} child={txtChild}></Text>
         </div>
       </div>
     </div>

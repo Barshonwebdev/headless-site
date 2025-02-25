@@ -16,7 +16,9 @@ const Secondheader = () => {
           {" "}
           <div className="flex  items-center justify-between py-4">
             <div className="flex text-white items-center space-x-8">
-              <button><NavigateDropdown></NavigateDropdown></button>
+              <button>
+                <NavigateDropdown></NavigateDropdown>
+              </button>
               <Link href={""}>
                 <Text className=" " child="VIDEOS"></Text>
               </Link>
@@ -34,10 +36,12 @@ const Secondheader = () => {
               </Link>
             </div>
             <div className="flex space-x-9 items-center">
-              <span className="bg-gradient-to-r from-purple-600 to-orange-400 rounded-3xl p-[2px]"><AllPurposeButton
-                className="font-medium bg-black text-white rounded-3xl px-4 py-2"
-                child="Get Involved"
-              ></AllPurposeButton></span>
+              <span className="bg-gradient-to-r from-purple-600 to-orange-400 rounded-3xl p-[2px]">
+                <AllPurposeButton
+                  className="font-medium bg-black text-white rounded-3xl px-4 py-2"
+                  child="Get Involved"
+                ></AllPurposeButton>
+              </span>
               <Link href={""}>
                 <IconComponent
                   className=""

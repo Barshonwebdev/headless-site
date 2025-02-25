@@ -3,13 +3,13 @@ import React from "react";
 
 type Props = {
   source: string | StaticImageData;
-  className:string
+  className: string;
 };
 
-const ImageComponent = ({ source,className }: Props) => {
+const ImageComponent = ({ source, className }: Props) => {
   return (
     <div>
-      <Image  className={`${className}`} alt="" src={source}></Image>
+      <Image className={`${className}`} alt="" src={source}></Image>
     </div>
   );
 };

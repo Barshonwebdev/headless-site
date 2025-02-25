@@ -1,7 +1,7 @@
 import React from "react";
 import ImageComponent from "../atoms/Image/ImageComponent";
 import Text from "../atoms/texts/Text";
-import profileimg from '../../../../public/images/profile.svg'
+import profileimg from "../../../../public/images/profile.svg";
 type contributorImgType = {
   imgclassname: string;
   imgsrc: string;
@@ -30,8 +30,11 @@ const ContributorImg = ({
           ></ImageComponent>
         </button>
         <button className="absolute bottom-4 lg:left-4 flex px-3 bg-opacity-60 rounded py-1 items-center space-x-2 text-white">
-            <ImageComponent className=" w-7 lg:w-10" source={profileimg}></ImageComponent>
-        <Text className={nameClassName} child={nametxtChild}></Text>
+          <ImageComponent
+            className=" w-7 lg:w-10"
+            source={profileimg}
+          ></ImageComponent>
+          <Text className={nameClassName} child={nametxtChild}></Text>
         </button>
       </div>
     </div>

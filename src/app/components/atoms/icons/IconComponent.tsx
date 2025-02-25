@@ -19,4 +19,4 @@ const IconComponent = ({ className, source, width, height }: icon) => {
   );
 };
 
-export default IconComponent; 
+export default IconComponent;

@@ -1,30 +1,28 @@
-'use client'
+"use client";
 
-import React from 'react';
-import { DownOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Dropdown, Space } from 'antd';
+import React from "react";
+import { DownOutlined } from "@ant-design/icons";
+import type { MenuProps } from "antd";
+import { Dropdown, Space } from "antd";
 
-const onClick: MenuProps['onClick'] = () => {
-  
-};
+const onClick: MenuProps["onClick"] = () => {};
 
-const items: MenuProps['items'] = [
+const items: MenuProps["items"] = [
   {
-    label: 'IMAGES',
-    key: '1',
+    label: "IMAGES",
+    key: "1",
   },
   {
-    label: 'PAINTINGS',
-    key: '2',
+    label: "PAINTINGS",
+    key: "2",
   },
   {
-    label: 'VECTORS',
-    key: '3',
+    label: "VECTORS",
+    key: "3",
   },
 ];
 
-const NavigateDropdown= () => (
+const NavigateDropdown = () => (
   <Dropdown menu={{ items, onClick }}>
     <a onClick={(e) => e.preventDefault()}>
       <Space>

@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const AvatarComponent = (className :string) => {
-    return (
-        <div className={`${className}`}>
-            
-        </div>
-    );
+const AvatarComponent = (className: string) => {
+  return <div className={`${className}`}></div>;
 };
 
 export default AvatarComponent;

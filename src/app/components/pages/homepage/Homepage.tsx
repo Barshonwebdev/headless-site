@@ -22,22 +22,44 @@ import Footer from "../../organisms/common/Footer";
 const Homepage = () => {
   return (
     <div>
-      <Desktop><Width>
-        <Header></Header>
+      <Desktop>
+        <Width>
+          <Header></Header>
+        </Width>
+        <Secondheader></Secondheader>
+      </Desktop>
+      <Mobile>
+        <MobileHeader></MobileHeader>
+      </Mobile>
+      <Desktop>
+        <Banner></Banner>
+      </Desktop>
+      <Mobile>
+        <MobileBanner></MobileBanner>
+      </Mobile>
+      <Desktop>
+        <Width>
+          <Trending></Trending>
+        </Width>
+      </Desktop>
+      <Mobile>
+        <TrendingMobile></TrendingMobile>
+      </Mobile>
+      <Desktop>
+        <Explore></Explore>
+      </Desktop>
+      <Mobile>
+        <ExploreMobile></ExploreMobile>
+      </Mobile>
+      <Width>
+        <Smart></Smart>
       </Width>
-      <Secondheader></Secondheader></Desktop>
-      <Mobile><MobileHeader></MobileHeader></Mobile>
-      <Desktop><Banner></Banner></Desktop>
-      <Mobile><MobileBanner></MobileBanner></Mobile>
-      <Desktop><Width><Trending></Trending></Width></Desktop>
-      <Mobile><TrendingMobile></TrendingMobile></Mobile>
-      <Desktop><Explore></Explore></Desktop>
-      <Mobile><ExploreMobile></ExploreMobile></Mobile>
-      <Width><Smart></Smart></Width>
       <Inspiration></Inspiration>
       <Weekly></Weekly>
       <Download></Download>
-      <Width><Insight></Insight></Width>
+      <Width>
+        <Insight></Insight>
+      </Width>
       <BecomeContributor></BecomeContributor>
       <Footer></Footer>
     </div>

@@ -22,7 +22,7 @@ const Explore = () => {
           className="text-4xl text-center font-bold mb-10 top "
           child="Explore A Vast Collection of Digital Art"
         ></Text>
-        <div className="grid grid-cols-4"> 
+        <div className="grid grid-cols-4">
           <ExploreImg
             arrowclass=" w-10"
             bookmarkclass=" "

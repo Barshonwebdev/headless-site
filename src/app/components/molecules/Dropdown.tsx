@@ -16,14 +16,14 @@ const DropdownComponent = ({ className }: dropdownStyles) => {
       <div>
         <Space wrap>
           <Select
-            defaultValue="IMAGES"
+            defaultValue="Images"
             className={className}
             variant="borderless"
             onChange={handleChange}
             options={[
-              { value: "IMAGES", label: "IMAGES" },
-              { value: "VECTORS", label: "VECTORS" },
-              { value: "PAINTINGS", label: "PAINTINGS" },
+              { value: "Images", label: "Images" },
+              { value: "Vectors", label: "Vectors" },
+              { value: "Paintings", label: "Paintings" },
             ]}
           />
         </Space>

@@ -10,48 +10,43 @@ import Link from "next/link";
 const TrendingMobile = () => {
   return (
     <div className="my-24">
-      <div className="mb-8"> 
+      <div className="mb-8">
         <Text
           child="Discover Trending Categories"
           className="text-black font-bold text-3xl text-center"
         ></Text>
-        
       </div>
       <div className="grid gap-x-4 gap-y-10 grid-cols-2 mt-5 mx-4">
-      <Link href='' className="group">
-        <ImageComponent source={img1} className=""></ImageComponent>
-          <Text
-          className="-mt-9 text-white text-center"
-            child="Images"
-          ></Text>
+        <Link href="" className="group">
+          <ImageComponent source={img1} className=""></ImageComponent>
+          <Text className="-mt-9 text-white text-center" child="Images"></Text>
         </Link>
-        <Link href='' className="group">
-        <ImageComponent source={img2} className=""></ImageComponent>
+        <Link href="" className="group">
+          <ImageComponent source={img2} className=""></ImageComponent>
           <Text
-          className="-mt-9 text-white text-center"
+            className="-mt-9 text-white text-center"
             child="AI Designs"
           ></Text>
         </Link>
-        <Link href='' className="group">
-        <ImageComponent source={img3} className=""></ImageComponent>
+        <Link href="" className="group">
+          <ImageComponent source={img3} className=""></ImageComponent>
           <Text
-          className="-mt-9 text-white text-center"
+            className="-mt-9 text-white text-center"
             child="Paintings"
           ></Text>
         </Link>
-        <Link href='' className="group">
-        <ImageComponent source={img4} className=""></ImageComponent>
+        <Link href="" className="group">
+          <ImageComponent source={img4} className=""></ImageComponent>
           <Text
-          className="-mt-9 text-white text-center"
+            className="-mt-9 text-white text-center"
             child="3D Models"
           ></Text>
         </Link>
-        
       </div>
       <AllPurposeButton
-          child="Explore all categories"
-          className="text-sm flex mx-auto mt-8 border-black border p-3 rounded font-semibold"
-        ></AllPurposeButton>
+        child="Explore all categories"
+        className="text-sm flex mx-auto mt-8 border-black border p-3 rounded font-semibold"
+      ></AllPurposeButton>
     </div>
   );
 };

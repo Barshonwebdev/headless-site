@@ -44,7 +44,7 @@ const SearchSuggest = () => {
       {/* mobile view  */}
       <div className="block md:hidden">
         <div className="flex  space-x-5   ">
-        {/* <div className="bg-gray-500 opacity-75 rounded px-1 space-x-2 flex items-center">
+          {/* <div className="bg-gray-500 opacity-75 rounded px-1 space-x-2 flex items-center">
             <Text child="Popular Searches:" className="text-white"></Text>
           </div> */}
           <button className="flex items-center space-x-2 bg-gray-900 opacity-75 rounded p-1">
