@@ -7,7 +7,7 @@ import bg from "../../../../../public/images/banner.svg";
 const Banner = () => {
   return (
     <div
-      className="flex space-y-8 items-center bg-auto h-[484px]  flex-col justify-center"
+      className="flex space-y-8 items-center bg-cover  bg-center h-[450px]  flex-col justify-center"
       style={{ backgroundImage: `url(${bg.src})` }}
     >
       <Text

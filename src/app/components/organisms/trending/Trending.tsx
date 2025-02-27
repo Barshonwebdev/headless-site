@@ -9,8 +9,9 @@ import ImageComponent from "../../atoms/Image/ImageComponent";
 import Link from "next/link";
 const Trending = () => {
   return (
-    <div className="my-24">
-      <div className="flex justify-between items-center">
+    <div className="my-24 flex items-center  flex-col">
+      <div>
+      <div className="flex justify-between items-center ">
         <Text
           child="Discover Trending Categories"
           className="text-black font-bold text-4xl text-center"
@@ -20,7 +21,9 @@ const Trending = () => {
           className="text-sm border-black border p-3 rounded font-semibold"
         ></AllPurposeButton>
       </div>
-      <div className="flex gap-7 mt-10">
+      <div className="flex flex-col  items-center ">
+      
+      <div className="flex gap-7 mt-10 ">
         <Link href="" className="group">
           <ImageComponent source={img1} className=""></ImageComponent>
           <Text
@@ -49,6 +52,8 @@ const Trending = () => {
             className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "
           ></Text>
         </Link>
+      </div>
+      </div>
       </div>
     </div>
   );
