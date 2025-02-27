@@ -154,11 +154,13 @@ const Footer = () => {
       </div>
 
       {/* copyright  */}
-      <div className="absolute bottom-0">
-        <ImageComponent
-          className="hidden lg:block"
+      <div className="absolute left-0 right-0 bottom-0 ">
+       <div className="flex justify-center items-center">
+       <ImageComponent
+          className="hidden lg:block "
           source={footerbg}
         ></ImageComponent>
+       </div>
         <div style={{ backgroundImage: `url(${mobilefooterbg.src})` }}>
           <Width>
             <div className="text-gray-500 text-sm relative flex flex-col lg:flex-row justify-between ">
