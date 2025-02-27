@@ -19,7 +19,7 @@ const Weekly = () => {
           arrowclass=" w-10"
           arrowimg={arrowimg}
           imgsrc={contributorImg1}
-          imgclassname=" "
+          imgclassname="w-full "
           nameClassName=""
           nametxtChild="Rajib Ahmed"
         ></ContributorImg>
@@ -27,7 +27,7 @@ const Weekly = () => {
           arrowclass=" w-10"
           arrowimg={arrowimg}
           imgsrc={contributorImg2}
-          imgclassname=" "
+          imgclassname="w-full "
           nameClassName=""
           nametxtChild="Abdus Salam"
         ></ContributorImg>
@@ -35,7 +35,7 @@ const Weekly = () => {
           arrowclass=" w-10"
           arrowimg={arrowimg}
           imgsrc={contributorImg3}
-          imgclassname=" "
+          imgclassname="w-full "
           nameClassName=""
           nametxtChild="Najnin Kabir"
         ></ContributorImg>
@@ -43,7 +43,7 @@ const Weekly = () => {
           arrowclass=" w-10"
           arrowimg={arrowimg}
           imgsrc={contributorImg4}
-          imgclassname=" "
+          imgclassname="w-full "
           nameClassName=""
           nametxtChild="Ibrahim Sattar"
         ></ContributorImg>
