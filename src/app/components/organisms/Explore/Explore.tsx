@@ -33,7 +33,7 @@ const Explore = () => {
             textClassName="text-white "
             txtChild="Sky view"
             imgsrc={img1}
-            imgclassname=" "
+            imgclassname="w-full "
           ></ExploreImg>
           <ExploreImg
             arrowclass="w-10 "
@@ -45,7 +45,7 @@ const Explore = () => {
             textClassName="text-white "
             txtChild="Natural view"
             imgsrc={img8}
-            imgclassname=" "
+            imgclassname="w-full "
           ></ExploreImg>
           <ExploreImg
             arrowclass="w-10 "
@@ -57,7 +57,7 @@ const Explore = () => {
             textClassName="text-white "
             txtChild="Digital"
             imgsrc={img3}
-            imgclassname=" "
+            imgclassname="w-full "
           ></ExploreImg>
           <ExploreImg
             arrowclass="w-10 "
@@ -69,7 +69,7 @@ const Explore = () => {
             textClassName="text-white "
             txtChild="Sea view"
             imgsrc={img4}
-            imgclassname=" "
+            imgclassname="w-full "
           ></ExploreImg>
           <ExploreImg
             arrowclass="w-10 "
@@ -81,7 +81,7 @@ const Explore = () => {
             textClassName="text-white "
             txtChild="Foods"
             imgsrc={img5}
-            imgclassname=" "
+            imgclassname="w-full "
           ></ExploreImg>
           <ExploreImg
             arrowclass="w-10 "
@@ -93,7 +93,7 @@ const Explore = () => {
             textClassName="text-white "
             txtChild="Books"
             imgsrc={img6}
-            imgclassname=" "
+            imgclassname="w-full "
           ></ExploreImg>
           <ExploreImg
             arrowclass="w-10 "
@@ -105,7 +105,7 @@ const Explore = () => {
             textClassName="text-white "
             txtChild="Sports"
             imgsrc={img7}
-            imgclassname=" "
+            imgclassname="w-full "
           ></ExploreImg>
           <ExploreImg
             arrowclass="w-10 "
@@ -117,7 +117,7 @@ const Explore = () => {
             textClassName="text-white "
             txtChild="Astronomy"
             imgsrc={img8}
-            imgclassname=" "
+            imgclassname="w-full "
           ></ExploreImg>
         </div>
         <div>

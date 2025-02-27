@@ -28,7 +28,7 @@ const ExploreImg = ({
   premiumimg,
 }: exploreImgType) => {
   return (
-    <div className="relative group">
+    <div className="relative group ">
       <ImageComponent className={imgclassname} source={imgsrc}></ImageComponent>
       <div className="md:invisible group-hover:visible opacity-100 group-hover:opacity-100  md:opacity-0 transition ease-linear ">
         <button className="absolute top-4 left-4">
