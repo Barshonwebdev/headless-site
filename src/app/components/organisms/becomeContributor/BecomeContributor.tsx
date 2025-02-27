@@ -6,7 +6,7 @@ import img from "../../../../../public/images/allcontributors.svg";
 import cloudimg from "../../../../../public/images/clouds.svg";
 const BecomeContributor = () => {
   return (
-    <div className="bg-[#E5F8FF] md:mx-[200px] h-[375px] relative   flex flex-col justify-center items-center">
+    <div className="bg-[#E5F8FF] lg:max-w-[1120px]  xl:mx-auto h-[375px] relative   flex flex-col justify-center items-center">
       <div className="absolute bottom-0 hidden lg:block">
         <ImageComponent
           className="hidden md:block"

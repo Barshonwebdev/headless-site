@@ -20,7 +20,7 @@ const Smart = () => {
             className="lg:px-0 px-2"
           ></ImageComponent>
         </div>
-        <div className="space-y-8 lg:px-20  order-1 lg:order-2 px-8 ">
+        <div className="space-y-8   order-1 lg:order-2 px-8 ">
           <SmartParts
             titletext="Personalized Art Suggestion"
             titleClass="text-sm font-bold mb-3 text-center lg:text-start "
