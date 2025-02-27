@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import Text from "../../atoms/texts/Text";
 import AllPurposeButton from "../../atoms/buttons/AllPurposeButton";
 import img1 from "../../../../../public/images/trendingimage1.svg";
