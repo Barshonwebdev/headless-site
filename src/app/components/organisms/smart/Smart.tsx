@@ -13,14 +13,14 @@ const Smart = () => {
         child="Smart Art Suggestions  to Elevate Your Creative Projects"
         className="lg:px-[240px] px-4 mb-10 lg:text-4xl text-3xl font-bold text-center"
       ></Text>
-      <div className="flex flex-col lg:flex-row items-center   ">
-        <div className="flex order-2 lg:order-1 lg:w-1/2 mt-8 lg:mt-0 ">
+      <div className="flex flex-col lg:flex-row items-center justify-center   ">
+        <div className="flex order-2 lg:order-1  mt-8 lg:mt-0 ">
           <ImageComponent
             source={smartimg}
             className="lg:px-0 px-2"
           ></ImageComponent>
         </div>
-        <div className="space-y-8 lg:px-20 lg:w-1/2 order-1 lg:order-2 px-8 ">
+        <div className="space-y-8 lg:px-20  order-1 lg:order-2 px-8 ">
           <SmartParts
             titletext="Personalized Art Suggestion"
             titleClass="text-sm font-bold mb-3 text-center lg:text-start "
