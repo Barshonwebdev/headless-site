@@ -6,14 +6,14 @@ import { Select, Space } from "antd";
 type dropdownStyles = {
   className: string;
 };
-const handleChange = (value: string) => {
+const handleChange = (value: string) => { 
   console.log(`selected ${value}`);
 };
 
 const MobileDropdown = ({ className }: dropdownStyles) => {
   return (
     <div className="">
-      <div className="block md:hidden">
+      <div className="block lg:hidden">
         <Space wrap>
           <Select
             dropdownStyle={{ width: 200 }}

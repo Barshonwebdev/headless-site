@@ -20,7 +20,7 @@ const Searchbox = () => {
             source={imgIcon}
           ></IconComponent>
           <Desktop>
-            <DropdownComponent className="text-black md:w-32  "></DropdownComponent>
+            <DropdownComponent className="text-black lg:w-32  "></DropdownComponent>
           </Desktop>
           <Mobile>
             <MobileDropdown className="text-black w-8 "></MobileDropdown>
