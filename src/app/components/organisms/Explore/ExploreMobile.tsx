@@ -13,7 +13,7 @@ import arrowimg from "../../../../../public/images/arrow.svg";
 import premiumimg from "../../../../../public/images/premium.svg";
 import bookmarkimg from "../../../../../public/images/bookmark.svg";
 const ExploreMobile = () => {
-  return (
+  return ( 
     <div>
       {/* mobile view  */}
       <div className=" text-black bgcolor py-20">

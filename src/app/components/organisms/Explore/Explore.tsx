@@ -120,7 +120,7 @@ const Explore = () => {
             imgclassname="w-full "
           ></ExploreImg>
         </div>
-        <div>
+        <div> 
           <AllPurposeButton
             className="font-medium flex mx-auto bg-black text-white border-black border-2 px-10 py-2 mt-10 rounded"
             child="Browse more"
