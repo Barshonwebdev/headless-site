@@ -71,7 +71,7 @@ const MobileHeader = () => {
       </div>
       <Drawer
         style={{ backgroundColor: "#202020", color: "white" }}
-        width={500}
+        width={900}
         closeIcon={<span style={{ display: "none" }}></span>}
         title={
           <div className="flex p-4 items-center justify-between  bg-black">

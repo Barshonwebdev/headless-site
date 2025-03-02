@@ -1,7 +1,7 @@
 import React from "react";
 
 const Mobile = ({ children }: { children: React.ReactNode }) => {
-  return <div className="md:hidden ">{children}</div>;
+  return <div className="lg:hidden ">{children}</div>;
 };
 
 export default Mobile;
