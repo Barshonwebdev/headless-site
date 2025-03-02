@@ -31,7 +31,7 @@ const Inspiration = () => {
             </div>
 
             {/* cards  */}
-            <div className="flex items-center justify-center flex-col lg:flex-row gap-7">
+            <div className="flex items-center justify-center  lg:flex-row gap-7">
               <Link href="">
                 <InspirationCard
                   categoryText="Aesthetic"
