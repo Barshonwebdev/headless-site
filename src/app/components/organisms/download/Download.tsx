@@ -7,7 +7,7 @@ import mobileimg from "../../../../../public/images/Iphone 12 Max.svg";
 import pointingimg from "../../../../../public/images/pointing.svg";
 const Download = () => {
   return (
-    <div className="bg-[#E7E5FF] md:my-20 xl:my-40 my-10 md:h-[400px] h-[370px] items-center justify-center flex px-4 lg:px-[200px] lg:py-[200px]  space-x-52 "> 
+    <div className="bg-[#E7E5FF] md:my-20 xl:my-40 my-10 md:h-[400px] h-[370px] items-center justify-center flex px-4 lg:px-[200px] lg:py-[200px]  space-x-52 ">
       <div className="space-y-4 items-center  ">
         <Text
           child="Download Our App and Have Access to Digital Art On The Go"
@@ -36,7 +36,6 @@ const Download = () => {
           ></ImageComponent>
         </div>
       </div>
-
       <div className="w-fit hidden md:block ">
         <ImageComponent className="" source={mobileimg}></ImageComponent>
       </div>

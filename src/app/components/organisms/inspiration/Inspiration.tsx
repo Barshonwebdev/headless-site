@@ -19,44 +19,44 @@ const Inspiration = () => {
       <Width>
         <div className=" flex justify-center items-center flex-col ">
           <div className="flex flex-col justify-between">
-          <div className="flex  justify-center lg:justify-between items-center mb-10">
-            <Text
-              child="Collect Your Daily Inspiration "
-              className="text-black font-bold text-3xl  lg:text-4xl text-center "
-            ></Text>
-            <AllPurposeButton
-              child="Explore collection"
-              className="text-sm hidden lg:block border-black border p-3 rounded font-semibold"
-            ></AllPurposeButton>
-          </div>
+            <div className="flex  justify-center lg:justify-between items-center mb-10">
+              <Text
+                child="Collect Your Daily Inspiration "
+                className="text-black font-bold text-3xl  lg:text-4xl text-center "
+              ></Text>
+              <AllPurposeButton
+                child="Explore collection"
+                className="text-sm hidden lg:block border-black border p-3 rounded font-semibold"
+              ></AllPurposeButton>
+            </div>
 
-          {/* cards  */}
-          <div className="flex items-center justify-center flex-col lg:flex-row gap-7">
-            <Link href="">
-              <InspirationCard
-                categoryText="Aesthetic"
-                img1={card1img1}
-                img2={card1img2}
-                img3={card1img3}
-              ></InspirationCard>
-            </Link>
-            <Link href="">
-              <InspirationCard
-                categoryText="Nature"
-                img1={card2img1}
-                img2={card2img2}
-                img3={card2img3}
-              ></InspirationCard>
-            </Link>
-            <Link href="">
-              <InspirationCard
-                categoryText="Miscellaneous"
-                img1={card3img1}
-                img2={card3img2}
-                img3={card3img3}
-              ></InspirationCard>
-            </Link>
-          </div>
+            {/* cards  */}
+            <div className="flex items-center justify-center flex-col lg:flex-row gap-7">
+              <Link href="">
+                <InspirationCard
+                  categoryText="Aesthetic"
+                  img1={card1img1}
+                  img2={card1img2}
+                  img3={card1img3}
+                ></InspirationCard>
+              </Link>
+              <Link href="">
+                <InspirationCard
+                  categoryText="Nature"
+                  img1={card2img1}
+                  img2={card2img2}
+                  img3={card2img3}
+                ></InspirationCard>
+              </Link>
+              <Link href="">
+                <InspirationCard
+                  categoryText="Miscellaneous"
+                  img1={card3img1}
+                  img2={card3img2}
+                  img3={card3img3}
+                ></InspirationCard>
+              </Link>
+            </div>
           </div>
         </div>
         <div>

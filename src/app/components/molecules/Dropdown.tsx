@@ -12,7 +12,7 @@ const handleChange = (value: string) => {
 
 const DropdownComponent = ({ className }: dropdownStyles) => {
   return (
-    <div className=""> 
+    <div className="">
       <div>
         <Space wrap>
           <Select
