@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div className="bg-black lg:h-[600px] h-[940px] relative">
       <Width>
-        <div className="text-white lg:pt-24 pt-8 flex flex-wrap lg:flex-nowrap lg:justify-between mb-16 lg:mb-0">
+        <div className="text-white lg:max-w-[1600px] mx-auto lg:pt-24 pt-8 flex flex-wrap lg:flex-nowrap lg:justify-between mb-16 lg:mb-0">
           <div className="lg:me-28 mb-8 lg:mb-0">
             <ImageComponent
               className="mb-2 "
@@ -163,7 +163,7 @@ const Footer = () => {
        </div>
         <div style={{ backgroundImage: `url(${mobilefooterbg.src})` }}>
           <Width>
-            <div className="text-gray-500 text-sm relative flex flex-col lg:flex-row justify-between ">
+            <div className="text-gray-500 text-sm relative flex flex-col lg:flex-row justify-between lg:max-w-[1600px] mx-auto ">
               <p className="mt-7 lg:absolute lg:bottom-0 text-xs lg:text-base text-center lg:text-left mb-1 lg:mb-0 ">
                 © 2024 DESIGN FOR EVERYONE, ALL RIGHTS RESERVED BY ICT DIVISION
               </p>
