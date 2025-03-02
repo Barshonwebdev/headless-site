@@ -7,7 +7,9 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
+    extend: { container:{
+      center:true
+    },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

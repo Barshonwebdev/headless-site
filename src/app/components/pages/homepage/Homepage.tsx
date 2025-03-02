@@ -60,7 +60,7 @@ const Homepage = () => {
       <Width>
         <Insight></Insight>
       </Width>
-      <BecomeContributor></BecomeContributor>
+      <Width><BecomeContributor></BecomeContributor></Width>
       <Footer></Footer>
     </div>
   );
