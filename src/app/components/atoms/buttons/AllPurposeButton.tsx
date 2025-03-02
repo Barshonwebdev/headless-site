@@ -1,8 +1,8 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
 type button = {
   className: string;
-  child: string;
+  child: string | ReactNode ;
 };
 const AllPurposeButton = ({ className, child }: button) => {
   return (

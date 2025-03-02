@@ -16,9 +16,8 @@ const Secondheader = () => {
           {" "}
           <div className="flex  items-center justify-between py-4 lg:max-w-[1620px] mx-auto">
             <div className="flex text-white items-center space-x-8">
-              <button>
-                <NavigateDropdown></NavigateDropdown>
-              </button>
+              <AllPurposeButton className="" child={<NavigateDropdown></NavigateDropdown>}>
+              </AllPurposeButton>
               <Link href={""}>
                 <Text className=" " child="VIDEOS"></Text>
               </Link>

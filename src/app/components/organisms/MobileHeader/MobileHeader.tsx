@@ -1,7 +1,5 @@
 "use client";
 
-// import type { MenuProps } from 'antd';
-// import { Menu } from 'antd';
 import React, { useState } from "react";
 import { Drawer } from "antd";
 import "./mobileheader.css";
@@ -14,12 +12,10 @@ import mobilelogo from "../../../../../public/images/mobilelogo.svg";
 import cart from "../../../../../public/icons/cart.svg";
 import bookmark from "../../../../../public/icons/bookmark.svg";
 import glitter from "../../../../../public/icons/glitter.svg";
-
 import { CloseOutlined } from "@ant-design/icons";
 import NavigateDropdown from "../../molecules/NavigationDropdown";
 import Text from "../../atoms/texts/Text";
 import Link from "next/link";
-// import MobileDrawerMenu from "../../molecules/MobileDrawerMenu";
 
 const MobileHeader = () => {
   const [open, setOpen] = useState(false);
@@ -31,9 +27,6 @@ const MobileHeader = () => {
     setOpen(false);
   };
 
-  // const onClick: MenuProps['onClick'] = (e) => {
-  //     console.log('click ', e);
-  //   };
   return (
     <div className="bg-black ">
       <div className=" ">
@@ -43,15 +36,19 @@ const MobileHeader = () => {
             <Link href={"/"}>
               <ImageComponent className="" source={mobilelogo}></ImageComponent>
             </Link>
-            <div className="flex space-x-4 ml-2">
-              <button>
-                <IconComponent
-                  className=""
-                  width={20}
-                  height={30}
-                  source={cart}
-                ></IconComponent>
-              </button>
+            <div className="flex space-x-4 items-center ml-2">
+              <AllPurposeButton
+                className="flex items-center"
+                child={
+                  <IconComponent
+                    className=""
+                    width={20}
+                    height={30}
+                    source={cart}
+                  ></IconComponent>
+                }
+              ></AllPurposeButton>
+
               <AllPurposeButton
                 className="font-medium text-sm bg-black text-white border-white border-2 py-1 px-4  rounded"
                 child="Log in"

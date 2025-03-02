@@ -18,7 +18,7 @@ const MobileBanner = () => {
         child="Explore our curated collection of premium digital art to inspire your next creative masterpiece."
         className="px-5 text-lg text-white text-opacity-85 text-center "
       ></Text>
-      <Searchbox></Searchbox>
+      <Searchbox></Searchbox> 
       <SearchSuggest></SearchSuggest>
     </div>
   );
