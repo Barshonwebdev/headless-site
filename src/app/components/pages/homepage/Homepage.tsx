@@ -22,35 +22,30 @@ import Footer from "../../organisms/common/Footer";
 const Homepage = () => {
   return (
     <div>
+
+      {/* desktop exclusive view */}
       <Desktop>
         <Width>
           <Header></Header>
         </Width>
         <Secondheader></Secondheader>
-      </Desktop>
-      <Mobile>
-        <MobileHeader></MobileHeader>
-      </Mobile>
-      <Desktop>
         <Banner></Banner>
-      </Desktop>
-      <Mobile>
-        <MobileBanner></MobileBanner>
-      </Mobile>
-      <Desktop>
         <Width>
           <Trending></Trending>
         </Width>
-      </Desktop>
-      <Mobile>
-        <TrendingMobile></TrendingMobile>
-      </Mobile>
-      <Desktop>
         <Explore></Explore>
       </Desktop>
+
+      {/* mobile exclusive view  */}
       <Mobile>
+        <MobileHeader></MobileHeader>
+        <MobileBanner></MobileBanner>
+        <TrendingMobile></TrendingMobile>
         <ExploreMobile></ExploreMobile>
       </Mobile>
+      
+
+      {/* common for all views  */}
       <Width>
         <Smart></Smart>
       </Width>
