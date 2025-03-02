@@ -11,10 +11,10 @@ import Link from "next/link";
 const Secondheader = () => {
   return (
     <div className="bg-black">
-      <div className=" ">
+      <div className=" "> 
         <Width>
           {" "}
-          <div className="flex  items-center justify-between py-4">
+          <div className="flex  items-center justify-between py-4 lg:max-w-[1620px] mx-auto">
             <div className="flex text-white items-center space-x-8">
               <button>
                 <NavigateDropdown></NavigateDropdown>

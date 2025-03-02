@@ -3,11 +3,11 @@ import ImageComponent from "../../atoms/Image/ImageComponent";
 import Text from "../../atoms/texts/Text";
 import AllPurposeButton from "../../atoms/buttons/AllPurposeButton";
 import logo from "../../../../../public/images/Logo.svg";
-import Link from "next/link";
+import Link from "next/link"; 
 
 const Header = () => {
   return (
-    <div className="my-[16px]">
+    <div className="my-[16px] lg:max-w-[1620px] mx-auto">
       <div className="flex items-center justify-between">
         <Link href={"/"}>
           <ImageComponent className="" source={logo}></ImageComponent>
