@@ -16,7 +16,7 @@ const TrendingMobile = () => {
           className="text-black font-bold text-3xl text-center"
         ></Text>
       </div>
-      <div className="grid gap-x-4 gap-y-10 grid-cols-2 mt-5 mx-4">
+      <div className="grid gap-x-4 gap-y-10 grid-cols-2 md:grid-cols-3 mt-5 mx-4">
         <Link href="" className="group">
           <ImageComponent source={img1} className=""></ImageComponent>
           <Text className="-mt-9 text-white text-center" child="Images"></Text>
