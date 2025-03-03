@@ -9,7 +9,7 @@ type Props = {
 const ImageComponent = ({ source, className }: Props) => {
   return (
     <div>
-      <Image className={`${className}`} alt="" src={source}></Image>
+      <Image className={className} alt="" src={source}></Image>
     </div>
   );
 };

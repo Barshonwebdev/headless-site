@@ -14,8 +14,8 @@ const IconComponent = ({ className, source, width, height }: icon) => {
       width={width}
       src={source}
       alt=""
-      className={`${className}`}
-    ></Image>
+      className={className}
+    />
   );
 };
 
