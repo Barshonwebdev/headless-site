@@ -16,8 +16,8 @@ const Insight = () => {
       <div className="flex justify-center gap-7 flex-col lg:flex-row ">
         <Link href="">
           <Card
-            className="border border-gray-200 shadow-lg border-t-0 px-4"
-            imgclassName="w-full"
+            className="border border-gray-200 shadow-lg border-t px-4"
+            imgclassName="w-full rounded-none"
             imageSource={insight1}
             category="Inspiration"
             duration="4 min read"
@@ -29,7 +29,7 @@ const Insight = () => {
         </Link>
         <Link href="">
           <Card
-            className="border border-gray-200 shadow-lg border-t-0 px-4"
+            className="border border-gray-200 shadow-lg border-t px-4"
             imgclassName="w-full"
             imageSource={insight2}
             category="Trends"
@@ -42,7 +42,7 @@ const Insight = () => {
         </Link>
         <Link href="">
           <Card
-            className="border border-gray-200 shadow-lg border-t-0 px-4"
+            className="border border-gray-200 shadow-lg border-t px-4"
             imgclassName="w-full"
             imageSource={insight3}
             category="Tips & tricks"
