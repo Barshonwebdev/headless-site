@@ -24,7 +24,9 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-y-8 gap-x-2 w-full lg:flex  lg:justify-between">
             {/* content  */}
             <div className="flex space-x-2">
+              <div>
               <ImageComponent className="" source={bluedash} />
+              </div>
               <div>
                 <p className="font-bold mb-5">CONTENT</p>
                 <div className="text-gray-400 space-y-3 flex flex-col">
@@ -55,7 +57,9 @@ const Footer = () => {
 
             {/* legal  */}
             <div className="flex space-x-2">
+              <div>
               <ImageComponent className="" source={bluedash} />
+              </div>
               <div>
                 <p className="font-bold mb-5">LEGAL</p>
                 <div className="text-gray-400 space-y-3 flex flex-col">
@@ -74,7 +78,9 @@ const Footer = () => {
 
             {/* company  */}
             <div className="flex space-x-2">
+              <div>
               <ImageComponent className="" source={bluedash} />
+              </div>
               <div>
                 <p className="font-bold mb-5">COMPANY</p>
                 <div className="text-gray-400 space-y-3 flex flex-col">
@@ -95,8 +101,10 @@ const Footer = () => {
             </div>
 
             {/* get the app  */}
-            <div className="flex space-x-2">
+            <div className="flex  space-x-2">
+              <div>
               <ImageComponent className="" source={bluedash} />
+              </div>
               <div className="">
                 <p className="font-bold mb-5">GET THE APP</p>
                 <div className="flex flex-col">
