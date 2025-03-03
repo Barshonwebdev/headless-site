@@ -25,7 +25,7 @@ const Card = ({
   titleClass,
 }: Tcard) => {
   return (
-    <div>
+    <div className="border border-gray-200 rounded-t-3xl">
       <ImageComponent className={imgclassName} source={imageSource} />
       <div className={className}>
         <Text child={category} className={categoryClass} />

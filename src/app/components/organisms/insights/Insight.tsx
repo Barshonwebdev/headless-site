@@ -16,7 +16,7 @@ const Insight = () => {
       <div className="flex justify-center gap-7 flex-col lg:flex-row ">
         <Link href="">
           <Card
-            className="border border-gray-200 shadow-lg border-t px-4"
+            className=" shadow-lg  px-4"
             imgclassName="w-full rounded-none"
             imageSource={insight1}
             category="Inspiration"
@@ -24,12 +24,12 @@ const Insight = () => {
             title="Paige Deasley`s Photos Capture the Joy of Outdoor Adventures"
             categoryClass="text-xs font-bold mt-4 mb-6"
             titleClass="font-bold mb-2"
-            durationClass="text-xs text-gray-500 mb-4"
+            durationClass="text-xs text-gray-500 pb-4"
           />
         </Link>
         <Link href="">
           <Card
-            className="border border-gray-200 shadow-lg border-t px-4"
+            className="shadow-lg  px-4"
             imgclassName="w-full"
             imageSource={insight2}
             category="Trends"
@@ -37,12 +37,12 @@ const Insight = () => {
             title="Paige Deasley`s Photos Capture the Joy of Outdoor Adventures"
             categoryClass="text-xs font-bold mt-4 mb-6"
             titleClass="font-bold mb-2"
-            durationClass="text-xs text-gray-500 mb-4"
+            durationClass="text-xs text-gray-500 pb-4"
           />
         </Link>
         <Link href="">
           <Card
-            className="border border-gray-200 shadow-lg border-t px-4"
+            className="shadow-lg  px-4"
             imgclassName="w-full"
             imageSource={insight3}
             category="Tips & tricks"
@@ -50,7 +50,7 @@ const Insight = () => {
             title="Paige Deasley`s Photos Capture the Joy of Outdoor Adventures"
             categoryClass="text-xs font-bold mt-4 mb-6"
             titleClass="font-bold mb-2"
-            durationClass="text-xs text-gray-500 mb-4"
+            durationClass="text-xs text-gray-500 pb-4"
           />
         </Link>
       </div>
