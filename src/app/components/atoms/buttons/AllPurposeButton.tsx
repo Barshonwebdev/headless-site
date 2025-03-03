@@ -1,15 +1,11 @@
 import React, { ReactNode } from "react";
 
-type button = {
+type Tbutton = {
   className: string;
-  child: string | ReactNode ;
+  child: string | ReactNode;
 };
-const AllPurposeButton = ({ className, child }: button) => {
-  return (
-    <div>
-      <button className={`${className}`}>{child}</button>
-    </div>
-  );
+const AllPurposeButton = ({ className, child }: Tbutton) => {
+  return <button className={className}>{child}</button>;
 };
 
 export default AllPurposeButton;

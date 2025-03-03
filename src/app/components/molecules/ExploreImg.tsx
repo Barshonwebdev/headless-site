@@ -2,7 +2,7 @@ import React from "react";
 import ImageComponent from "../atoms/Image/ImageComponent";
 import Text from "../atoms/texts/Text";
 
-type exploreImgType = {
+type TexploreImgType = {
   imgclassname: string;
   imgsrc: string;
   txtChild: string;
@@ -26,7 +26,7 @@ const ExploreImg = ({
   arrowimg,
   premiumclass,
   premiumimg,
-}: exploreImgType) => {
+}: TexploreImgType) => {
   return (
     <div className="relative group ">
       <ImageComponent className={imgclassname} source={imgsrc}></ImageComponent>

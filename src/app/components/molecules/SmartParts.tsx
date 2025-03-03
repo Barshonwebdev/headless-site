@@ -2,7 +2,7 @@ import React from "react";
 import ImageComponent from "../atoms/Image/ImageComponent";
 import Text from "../atoms/texts/Text";
 
-type smartType = {
+type TsmartType = {
   smartimg: string;
   imgclass: string;
   titleClass: string;
@@ -17,7 +17,7 @@ const SmartParts = ({
   descriptionClass,
   descriptiontext,
   titletext,
-}: smartType) => {
+}: TsmartType) => {
   return (
     <div className="">
       <ImageComponent className={imgclass} source={smartimg}></ImageComponent>

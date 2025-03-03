@@ -2,7 +2,7 @@ import React from "react";
 import ImageComponent from "../atoms/Image/ImageComponent";
 import Text from "../atoms/texts/Text";
 
-type inspirationType = {
+type TinspirationType = {
   img1: string;
   img2: string;
   img3: string;
@@ -13,7 +13,7 @@ const InspirationCard = ({
   img2,
   img3,
   categoryText,
-}: inspirationType) => {
+}: TinspirationType) => {
   return (
     <div className="flex flex-col gap-2 relative">
       <ImageComponent className=" " source={img1}></ImageComponent>

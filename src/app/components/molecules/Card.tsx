@@ -2,7 +2,7 @@ import React from "react";
 import ImageComponent from "../atoms/Image/ImageComponent";
 import Text from "../atoms/texts/Text";
 
-type card = {
+type Tcard = {
   imageSource: string;
   imgclassName: string;
   category: string;
@@ -23,7 +23,7 @@ const Card = ({
   categoryClass,
   durationClass,
   titleClass,
-}: card) => {
+}: Tcard) => {
   return (
     <div>
       <ImageComponent

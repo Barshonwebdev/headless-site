@@ -2,7 +2,7 @@ import React from "react";
 import ImageComponent from "../atoms/Image/ImageComponent";
 import Text from "../atoms/texts/Text";
 import profileimg from "../../../../public/images/profile.svg";
-type contributorImgType = {
+type TcontributorImgType = {
   imgclassname: string;
   imgsrc: string;
   nametxtChild: string;
@@ -18,7 +18,7 @@ const ContributorImg = ({
   nameClassName,
   arrowclass,
   arrowimg,
-}: contributorImgType) => {
+}: TcontributorImgType) => {
   return (
     <div className="relative group">
       <ImageComponent className={imgclassname} source={imgsrc}></ImageComponent>

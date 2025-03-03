@@ -3,14 +3,14 @@
 import React from "react";
 import { Select, Space } from "antd";
 
-type dropdownStyles = {
+type TdropdownStyles = {
   className: string;
 };
 const handleChange = (value: string) => {
   console.log(`selected ${value}`);
 };
 
-const DropdownComponent = ({ className }: dropdownStyles) => {
+const DropdownComponent = ({ className }: TdropdownStyles) => {
   return (
     <div className="">
       <div>

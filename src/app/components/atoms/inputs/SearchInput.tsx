@@ -1,11 +1,11 @@
 import React from "react"; 
 
-type inputstring = {
+type Tinputstring = {
   className: string;
 };
-const SearchInput = ({ className }: inputstring) => {
+const SearchInput = ({ className }:Tinputstring) => {
   return (
-    <div className={`${className}`}>
+    <div className={className}>
       <input
         className="border-0 outline-none me-3"
         placeholder="Search for the best asset..."

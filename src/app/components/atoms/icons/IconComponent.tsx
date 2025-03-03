@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
 
-type icon = {
+type Ticon = {
   className: string;
   source: string;
   width: number;
   height: number;
 };
-const IconComponent = ({ className, source, width, height }: icon) => {
+const IconComponent = ({ className, source, width, height }: Ticon) => {
   return (
     <Image
       height={height}

@@ -1,16 +1,12 @@
 import React from "react";
 
-type textType = {
+type TtextType = {
   className: string;
   child: string;
 };
 
-const Text = ({ className, child }: textType) => {
-  return (
-    <div>
-      <p className={`${className}`}>{child}</p>
-    </div>
-  );
+const Text = ({ className, child }: TtextType) => {
+  return <p className={className}>{child}</p>;
 };
 
 export default Text;
