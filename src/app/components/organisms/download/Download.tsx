@@ -25,7 +25,7 @@ const Download = () => {
             <ImageComponent className="w-[150px] " source={applestoreimg} />
           </button>
           <ImageComponent
-            className="w-2/3 top-11 right-32 md:right-6 relative "
+            className=" top-11 right-32 md:right-6 relative "
             source={pointingimg}
           />
         </div>

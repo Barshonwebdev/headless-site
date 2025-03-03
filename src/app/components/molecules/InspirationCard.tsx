@@ -18,8 +18,8 @@ const InspirationCard = ({
     <div className="flex flex-col gap-2 relative">
       <ImageComponent className=" " source={img1} />
       <div className="flex gap-2">
-        <ImageComponent className=" " source={img2} />
-        <ImageComponent className=" " source={img3} />
+        <ImageComponent className="w-1/2 " source={img2} />
+        <ImageComponent className="w-1/2 " source={img3} />
       </div>
       <div>
         <Text className="text-base font-bold mt-4" child={categoryText} />

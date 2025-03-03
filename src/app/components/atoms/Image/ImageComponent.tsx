@@ -7,11 +7,7 @@ type Timage = {
 };
 
 const ImageComponent = ({ source, className }: Timage) => {
-  return (
-    <div>
-      <Image className={className} alt="" src={source} />
-    </div>
-  );
+  return <Image className={className} alt="" src={source} />;
 };
 
 export default ImageComponent;
