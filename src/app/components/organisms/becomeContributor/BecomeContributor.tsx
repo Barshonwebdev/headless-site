@@ -11,22 +11,22 @@ const BecomeContributor = () => {
         <ImageComponent
           className="hidden md:block w-[1620px]"
           source={cloudimg}
-        ></ImageComponent>
+        />
       </div>
       <div className="flex flex-col justify-center items-center">
-        <ImageComponent className="" source={img}></ImageComponent>
+        <ImageComponent className="" source={img}/>
         <p className="my-4 lg:text-3xl text-lg  font-extrabold">
           Become A <span className="italic font-black">Contributor</span> Today
         </p>
         <Text
           child="Help us create the world's largest stock photo library, become a contributor and get paid for your assets."
           className="lg:px-80 px-4 text-center text-[#3C3C3C]"
-        ></Text>
+        />
       </div>
       <AllPurposeButton
         className="font-medium flex relative bg-black  text-white border-black border-2 px-10 py-2 mt-10 rounded"
         child="Let's contribute"
-      ></AllPurposeButton>
+      />
     </div>
   );
 };

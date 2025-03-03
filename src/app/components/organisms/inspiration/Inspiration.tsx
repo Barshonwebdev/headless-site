@@ -23,11 +23,11 @@ const Inspiration = () => {
               <Text
                 child="Collect Your Daily Inspiration "
                 className="text-black font-bold text-3xl  lg:text-4xl text-center "
-              ></Text>
+              />
               <AllPurposeButton
                 child="Explore collection"
                 className="text-sm hidden lg:block border-black border p-3 rounded font-semibold"
-              ></AllPurposeButton>
+              />
             </div>
 
             {/* cards  */}
@@ -38,7 +38,7 @@ const Inspiration = () => {
                   img1={card1img1}
                   img2={card1img2}
                   img3={card1img3}
-                ></InspirationCard>
+                />
               </Link>
               <Link href="">
                 <InspirationCard
@@ -46,7 +46,7 @@ const Inspiration = () => {
                   img1={card2img1}
                   img2={card2img2}
                   img3={card2img3}
-                ></InspirationCard>
+                />
               </Link>
               <Link href="">
                 <InspirationCard
@@ -54,7 +54,7 @@ const Inspiration = () => {
                   img1={card3img1}
                   img2={card3img2}
                   img3={card3img3}
-                ></InspirationCard>
+                />
               </Link>
             </div>
           </div>
@@ -63,7 +63,7 @@ const Inspiration = () => {
           <AllPurposeButton
             child="Explore collection"
             className="text-sm block mx-auto mt-8 md:hidden border-black border py-3 px-5 rounded font-semibold"
-          ></AllPurposeButton>
+          />
         </div>
       </Width>
     </div>

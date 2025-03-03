@@ -34,7 +34,7 @@ const MobileHeader = () => {
           {" "}
           <div className="flex  items-center justify-between py-4">
             <Link href={"/"}>
-              <ImageComponent className="" source={mobilelogo}></ImageComponent>
+              <ImageComponent className="" source={mobilelogo} />
             </Link>
             <div className="flex space-x-4 items-center ml-2">
               <AllPurposeButton
@@ -45,14 +45,14 @@ const MobileHeader = () => {
                     width={20}
                     height={30}
                     source={cart}
-                  ></IconComponent>
+                  />
                 }
-              ></AllPurposeButton>
+              />
 
               <AllPurposeButton
                 className="font-medium text-sm bg-black text-white border-white border-2 py-1 px-4  rounded"
                 child="Log in"
-              ></AllPurposeButton>
+              />
 
               <button onClick={showDrawer} className="">
                 <IconComponent
@@ -60,7 +60,7 @@ const MobileHeader = () => {
                   width={20}
                   height={30}
                   source={hamburger}
-                ></IconComponent>
+                />
               </button>
             </div>
           </div>
@@ -73,9 +73,9 @@ const MobileHeader = () => {
         title={
           <div className="flex p-4 items-center justify-between  bg-black">
             <Link href="">
-              <ImageComponent className="" source={mobilelogo}></ImageComponent>
+              <ImageComponent className="" source={mobilelogo} />
             </Link>
-            <CloseOutlined onClick={onClose}></CloseOutlined>
+            <CloseOutlined onClick={onClose} />
           </div>
         }
         open={open}
@@ -86,16 +86,16 @@ const MobileHeader = () => {
               <Text
                 className=" border-b p-4 border-white border-opacity-30"
                 child="HOME"
-              ></Text>
+              />
             </Link>
             <div className="border-b p-4 border-white border-opacity-30">
-              <NavigateDropdown></NavigateDropdown>
+              <NavigateDropdown />
             </div>
             <Link href={""}>
               <Text
                 className="border-b p-4 border-white border-opacity-30 "
                 child="VIDEOS"
-              ></Text>
+              />
             </Link>
             <Link
               href=""
@@ -106,14 +106,14 @@ const MobileHeader = () => {
                 className=""
                 width={20}
                 height={20}
-              ></IconComponent>
-              <Text className=" " child="AI GENERATED"></Text>
+              />
+              <Text className=" " child="AI GENERATED" />
             </Link>
             <Link href={""}>
               <Text
                 className="border-b p-4 border-white border-opacity-30 "
                 child="BROWSE CONTENT"
-              ></Text>
+              />
             </Link>
             <Link
               href=""
@@ -124,22 +124,22 @@ const MobileHeader = () => {
                 className=""
                 width={20}
                 height={20}
-              ></IconComponent>
-              <Text className=" " child="FAVORITES"></Text>
+              />
+              <Text className=" " child="FAVORITES" />
             </Link>
             <div className="p-4">
               <div className="bg-gradient-to-r from-purple-600 to-orange-400 rounded-3xl inline-block p-[2px]">
                 <AllPurposeButton
                   className=" bg-[#202020] text-white font-bold rounded-3xl ps-4 pe-5 py-2"
                   child="Get Involved"
-                ></AllPurposeButton>
+                />
               </div>
             </div>
             <div className="p-4 flex flex-col items-center border-t border-white border-opacity-30">
               <AllPurposeButton
                 className="font-semibold mt-10  bg-stone-900 text-white border-white border-2 rounded  px-10 pt-1 pb-2"
                 child="Sign up"
-              ></AllPurposeButton>
+              />
             </div>
           </div>
           <div className="flex justify-center">
@@ -148,7 +148,7 @@ const MobileHeader = () => {
               <Text
                 className="underline mt-3 text-sm text-center "
                 child="Contributor Account"
-              ></Text>
+              />
             </Link>
           </div>
         </div>

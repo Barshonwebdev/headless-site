@@ -18,16 +18,13 @@ const Footer = () => {
       <Width>
         <div className="text-white lg:max-w-[1620px] mx-auto lg:pt-24 pt-8 flex flex-wrap lg:flex-nowrap lg:justify-between mb-16 lg:mb-0">
           <div className="lg:me-28 mb-8 lg:mb-0">
-            <ImageComponent
-              className="mb-2 "
-              source={designerlogo}
-            ></ImageComponent>
+            <ImageComponent className="mb-2 " source={designerlogo} />
           </div>
 
           <div className="grid grid-cols-2 gap-y-8 gap-x-2 w-full lg:flex  lg:justify-between">
             {/* content  */}
             <div className="flex space-x-2">
-              <ImageComponent className="" source={bluedash}></ImageComponent>
+              <ImageComponent className="" source={bluedash} />
               <div>
                 <p className="font-bold mb-5">CONTENT</p>
                 <div className="text-gray-400 space-y-3 flex flex-col">
@@ -58,7 +55,7 @@ const Footer = () => {
 
             {/* legal  */}
             <div className="flex space-x-2">
-              <ImageComponent className="" source={bluedash}></ImageComponent>
+              <ImageComponent className="" source={bluedash} />
               <div>
                 <p className="font-bold mb-5">LEGAL</p>
                 <div className="text-gray-400 space-y-3 flex flex-col">
@@ -77,7 +74,7 @@ const Footer = () => {
 
             {/* company  */}
             <div className="flex space-x-2">
-              <ImageComponent className="" source={bluedash}></ImageComponent>
+              <ImageComponent className="" source={bluedash} />
               <div>
                 <p className="font-bold mb-5">COMPANY</p>
                 <div className="text-gray-400 space-y-3 flex flex-col">
@@ -99,7 +96,7 @@ const Footer = () => {
 
             {/* get the app  */}
             <div className="flex space-x-2">
-              <ImageComponent className="" source={bluedash}></ImageComponent>
+              <ImageComponent className="" source={bluedash} />
               <div className="">
                 <p className="font-bold mb-5">GET THE APP</p>
                 <div className="flex flex-col">
@@ -107,33 +104,24 @@ const Footer = () => {
                     <ImageComponent
                       className="w-[120px]"
                       source={playstorebadge}
-                    ></ImageComponent>
+                    />
                   </button>
                   <button className="bg-white rounded px-4 py-2 mb-10">
                     <ImageComponent
                       className="w-[125px]"
                       source={applestorebadge}
-                    ></ImageComponent>
+                    />
                   </button>
                   {/* socials  */}
                   <div className="flex space-x-3">
                     <button>
-                      <ImageComponent
-                        className=""
-                        source={fbicon}
-                      ></ImageComponent>
+                      <ImageComponent className="" source={fbicon} />
                     </button>
                     <button>
-                      <ImageComponent
-                        className=""
-                        source={xicon}
-                      ></ImageComponent>
+                      <ImageComponent className="" source={xicon} />
                     </button>
                     <button>
-                      <ImageComponent
-                        className=""
-                        source={instaicon}
-                      ></ImageComponent>
+                      <ImageComponent className="" source={instaicon} />
                     </button>
                   </div>
                 </div>
@@ -149,23 +137,20 @@ const Footer = () => {
           <ImageComponent
             className="mx-auto lg:rounded rounded-sm w-[340px] lg:w-[650px]"
             source={sponsors}
-          ></ImageComponent>
+          />
         </div>
       </div>
 
       {/* copyright  */}
       <div className="absolute left-0 right-0 bottom-0 ">
-       <div className="flex justify-center items-center">
-       <ImageComponent
-          className="hidden lg:block "
-          source={footerbg}
-        ></ImageComponent>
-       </div>
+        <div className="flex justify-center items-center">
+          <ImageComponent className="hidden lg:block " source={footerbg} />
+        </div>
         <div style={{ backgroundImage: `url(${mobilefooterbg.src})` }}>
           <Width>
             <div className="text-gray-500 text-sm relative flex flex-col lg:flex-row justify-between lg:max-w-[1600px] mx-auto ">
               <p className="mt-7 lg:absolute lg:bottom-0 text-xs lg:text-base text-center lg:text-left mb-1 lg:mb-0 ">
-                © 2024 DESIGN FOR EVERYONE, ALL RIGHTS RESERVED BY ICT DIVISION
+                © 2025 DESIGN FOR EVERYONE, ALL RIGHTS RESERVED BY ICT DIVISION
               </p>
               <p className="lg:absolute lg:bottom-0 right-0 text-xs lg:text-base text-center lg:text-left mb-7 mt-2 lg:mb-0">
                 Technical support by{" "}

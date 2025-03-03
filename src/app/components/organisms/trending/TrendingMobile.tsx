@@ -14,39 +14,30 @@ const TrendingMobile = () => {
         <Text
           child="Discover Trending Categories"
           className="text-black font-bold text-3xl text-center"
-        ></Text>
+        />
       </div>
       <div className="grid gap-x-4 gap-y-10 grid-cols-2 md:grid-cols-3 mt-5 mx-4">
         <Link href="" className="group">
-          <ImageComponent source={img1} className=""></ImageComponent>
-          <Text className="-mt-9 text-white text-center" child="Images"></Text>
+          <ImageComponent source={img1} className="" />
+          <Text className="-mt-9 text-white text-center" child="Images" />
         </Link>
         <Link href="" className="group">
-          <ImageComponent source={img2} className=""></ImageComponent>
-          <Text
-            className="-mt-9 text-white text-center"
-            child="AI Designs"
-          ></Text>
+          <ImageComponent source={img2} className="" />
+          <Text className="-mt-9 text-white text-center" child="AI Designs" />
         </Link>
         <Link href="" className="group">
-          <ImageComponent source={img3} className=""></ImageComponent>
-          <Text
-            className="-mt-9 text-white text-center"
-            child="Paintings"
-          ></Text>
+          <ImageComponent source={img3} className="" />
+          <Text className="-mt-9 text-white text-center" child="Paintings" />
         </Link>
         <Link href="" className="group">
-          <ImageComponent source={img4} className=""></ImageComponent>
-          <Text
-            className="-mt-9 text-white text-center"
-            child="3D Models"
-          ></Text>
+          <ImageComponent source={img4} className="" />
+          <Text className="-mt-9 text-white text-center" child="3D Models" />
         </Link>
       </div>
       <AllPurposeButton
         child="Explore all categories"
         className="text-sm flex mx-auto mt-8 border-black border p-3 rounded font-semibold"
-      ></AllPurposeButton>
+      />
     </div>
   );
 };

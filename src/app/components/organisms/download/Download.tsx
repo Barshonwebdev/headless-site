@@ -12,32 +12,26 @@ const Download = () => {
         <Text
           child="Download Our App and Have Access to Digital Art On The Go"
           className="font-bold text-3xl md:text-4xl"
-        ></Text>
+        />
         <Text
           child="Carry our digital art library in your pocket with the ImageQuest mobile app - Discover, Download, Create."
           className="text-base text-[#3C3C3C]"
-        ></Text>
+        />
         <div className="flex space-x-6">
           <button>
-            <ImageComponent
-              className="w-[160px] "
-              source={playstoreimg}
-            ></ImageComponent>
+            <ImageComponent className="w-[160px] " source={playstoreimg} />
           </button>
           <button>
-            <ImageComponent
-              className="w-[150px] "
-              source={applestoreimg}
-            ></ImageComponent>
+            <ImageComponent className="w-[150px] " source={applestoreimg} />
           </button>
           <ImageComponent
             className="w-2/3 top-11 right-32 md:right-6 relative "
             source={pointingimg}
-          ></ImageComponent>
+          />
         </div>
       </div>
       <div className="w-fit hidden md:block ">
-        <ImageComponent className="" source={mobileimg}></ImageComponent>
+        <ImageComponent className="" source={mobileimg} />
       </div>
     </div>
   );

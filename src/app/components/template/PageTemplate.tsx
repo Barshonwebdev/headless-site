@@ -1,6 +1,3 @@
-
-
-
 import React from "react";
 import Desktop from "../layout/Desktop";
 import Width from "../layout/Width";
@@ -22,45 +19,44 @@ import Insight from "../organisms/insights/Insight";
 import BecomeContributor from "../organisms/becomeContributor/BecomeContributor";
 import Footer from "../organisms/common/Footer";
 
-
 const PageTemplate = () => {
   return (
     <div>
       {/* desktop exclusive view */}
       <Desktop>
         <Width>
-          <Header></Header>
+          <Header />
         </Width>
-        <Secondheader></Secondheader>
-        <Banner></Banner>
+        <Secondheader />
+        <Banner />
         <Width>
-          <Trending></Trending>
+          <Trending />
         </Width>
-        <Explore></Explore>
+        <Explore />
       </Desktop>
 
       {/* mobile exclusive view  */}
       <Mobile>
-        <MobileHeader></MobileHeader>
-        <MobileBanner></MobileBanner>
-        <TrendingMobile></TrendingMobile>
-        <ExploreMobile></ExploreMobile>
+        <MobileHeader />
+        <MobileBanner />
+        <TrendingMobile />
+        <ExploreMobile />
       </Mobile>
 
       {/* common for all views  */}
       <Width>
-        <Smart></Smart>
+        <Smart />
       </Width>
-      <Inspiration></Inspiration>
-      <Weekly></Weekly>
-      <Download></Download>
+      <Inspiration />
+      <Weekly />
+      <Download />
       <Width>
-        <Insight></Insight>
+        <Insight />
       </Width>
       <Width>
-        <BecomeContributor></BecomeContributor>
+        <BecomeContributor />
       </Width>
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 };

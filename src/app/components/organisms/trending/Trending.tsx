@@ -15,41 +15,41 @@ const Trending = () => {
           <Text
             child="Discover Trending Categories"
             className="text-black font-bold text-4xl text-center"
-          ></Text>
+          />
           <AllPurposeButton
             child="Explore all categories"
             className="text-sm border-black border p-3 rounded font-semibold"
-          ></AllPurposeButton>
+          />
         </div>
         <div className="flex flex-col  ">
           <div className="flex justify-between gap-7 mt-10 ">
             <Link href="" className="group">
-              <ImageComponent source={img1} className=""></ImageComponent>
+              <ImageComponent source={img1} className="" />
               <Text
                 child="Images"
                 className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "
-              ></Text>
+              />
             </Link>
             <Link href="" className="group">
-              <ImageComponent source={img2} className=""></ImageComponent>
+              <ImageComponent source={img2} className="" />
               <Text
                 child="AI Designs"
                 className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "
-              ></Text>
+              />
             </Link>
             <Link href="" className="group">
-              <ImageComponent source={img3} className=""></ImageComponent>
+              <ImageComponent source={img3} className="" />
               <Text
                 child="Paintings"
                 className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "
-              ></Text>
+              />
             </Link>
             <Link href="" className="group">
-              <ImageComponent source={img4} className=""></ImageComponent>
+              <ImageComponent source={img4} className="" />
               <Text
                 child="3D Models"
                 className="text-center -mt-11 invisible transition translate-y-12 text-white group-hover:visible group-hover:translate-y-0 "
-              ></Text>
+              />
             </Link>
           </div>
         </div>

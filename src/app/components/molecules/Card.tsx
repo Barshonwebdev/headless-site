@@ -26,14 +26,11 @@ const Card = ({
 }: Tcard) => {
   return (
     <div>
-      <ImageComponent
-        className={imgclassName}
-        source={imageSource}
-      ></ImageComponent>
+      <ImageComponent className={imgclassName} source={imageSource} />
       <div className={className}>
-        <Text child={category} className={categoryClass}></Text>
-        <Text child={title} className={titleClass}></Text>
-        <Text child={duration} className={durationClass}></Text>
+        <Text child={category} className={categoryClass} />
+        <Text child={title} className={titleClass} />
+        <Text child={duration} className={durationClass} />
       </div>
     </div>
   );

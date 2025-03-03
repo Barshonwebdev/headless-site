@@ -13,7 +13,7 @@ const Weekly = () => {
       <Text
         className="text-3xl lg:text-4xl text-center lg:font-extrabold font-bold mb-10  "
         child="Best Weekly Contributor Assets Only for You"
-      ></Text>
+      />
       <div className="grid md:grid-cols-4 grid-cols-2">
         <ContributorImg
           arrowclass=" w-10"
@@ -22,7 +22,7 @@ const Weekly = () => {
           imgclassname="w-full "
           nameClassName=""
           nametxtChild="Rajib Ahmed"
-        ></ContributorImg>
+        />
         <ContributorImg
           arrowclass=" w-10"
           arrowimg={arrowimg}
@@ -30,7 +30,7 @@ const Weekly = () => {
           imgclassname="w-full "
           nameClassName=""
           nametxtChild="Abdus Salam"
-        ></ContributorImg>
+        />
         <ContributorImg
           arrowclass=" w-10"
           arrowimg={arrowimg}
@@ -38,7 +38,7 @@ const Weekly = () => {
           imgclassname="w-full "
           nameClassName=""
           nametxtChild="Najnin Kabir"
-        ></ContributorImg>
+        />
         <ContributorImg
           arrowclass=" w-10"
           arrowimg={arrowimg}
@@ -46,14 +46,14 @@ const Weekly = () => {
           imgclassname="w-full "
           nameClassName=""
           nametxtChild="Ibrahim Sattar"
-        ></ContributorImg>
+        />
       </div>
 
       <div>
         <AllPurposeButton
           className="font-medium flex mx-auto bg-white lg:bg-black text-black lg:text-white border-black border-2 px-10 py-2 mt-10 rounded"
           child="Explore all contributors"
-        ></AllPurposeButton>
+        />
       </div>
     </div>
   );

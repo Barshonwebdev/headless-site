@@ -14,22 +14,17 @@ const Searchbox = () => {
     <div className="flex   ">
       <div className="flex relative space-x-4 items-center bg-white  rounded-md w-[343px] h-[54px] md:w-[650px] ">
         <div className="flex  border-gray-400 px-2  ms-3 rounded border">
-          <IconComponent
-            className=""
-            height={24}
-            width={24}
-            source={imgIcon}
-          ></IconComponent>
+          <IconComponent className="" height={24} width={24} source={imgIcon} />
           <Desktop>
-            <DropdownComponent className="text-black lg:w-32  "></DropdownComponent>
+            <DropdownComponent className="text-black lg:w-32  " />
           </Desktop>
           <Mobile>
-            <MobileDropdown className="text-black w-8 "></MobileDropdown>
+            <MobileDropdown className="text-black w-8 " />
           </Mobile>
         </div>
 
         <div className="flex ">
-          <SearchInput className="flex md:space-x-52  "></SearchInput>
+          <SearchInput className="flex md:space-x-52  " />
           <AllPurposeButton
             child={
               <IconComponent
@@ -37,10 +32,10 @@ const Searchbox = () => {
                 height={24}
                 width={24}
                 className=""
-              ></IconComponent>
+              />
             }
             className="absolute right-0 bottom-0 hidden md:flex rounded  items-center p-4  bg-black"
-          ></AllPurposeButton>
+          />
           <AllPurposeButton
             child={
               <IconComponent
@@ -48,10 +43,10 @@ const Searchbox = () => {
                 height={30}
                 width={23}
                 className=""
-              ></IconComponent>
+              />
             }
             className="absolute right-0 bottom-0 md:hidden rounded flex p-4 items-center  bg-black"
-          ></AllPurposeButton>
+          />
         </div>
       </div>
     </div>

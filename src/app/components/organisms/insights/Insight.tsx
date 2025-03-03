@@ -12,7 +12,7 @@ const Insight = () => {
       <Text
         child="Inspirations & Insights Of The Digital Art"
         className="text-center lg:text-4xl text-2xl font-extrabold"
-      ></Text>
+      />
       <div className="flex justify-center gap-7 flex-col lg:flex-row ">
         <Link href="">
           <Card
@@ -25,7 +25,7 @@ const Insight = () => {
             categoryClass="text-xs font-bold mt-4 mb-6"
             titleClass="font-bold mb-2"
             durationClass="text-xs text-gray-500 mb-4"
-          ></Card>
+          />
         </Link>
         <Link href="">
           <Card
@@ -38,7 +38,7 @@ const Insight = () => {
             categoryClass="text-xs font-bold mt-4 mb-6"
             titleClass="font-bold mb-2"
             durationClass="text-xs text-gray-500 mb-4"
-          ></Card>
+          />
         </Link>
         <Link href="">
           <Card
@@ -51,14 +51,14 @@ const Insight = () => {
             categoryClass="text-xs font-bold mt-4 mb-6"
             titleClass="font-bold mb-2"
             durationClass="text-xs text-gray-500 mb-4"
-          ></Card>
+          />
         </Link>
       </div>
       <div className="flex justify-center">
         <AllPurposeButton
           child="Read more blog"
           className="text-sm   border-black border py-2 px-8 rounded font-semibold"
-        ></AllPurposeButton>
+        />
       </div>
     </div>
   );

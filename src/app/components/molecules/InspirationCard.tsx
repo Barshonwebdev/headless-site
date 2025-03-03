@@ -16,18 +16,18 @@ const InspirationCard = ({
 }: TinspirationType) => {
   return (
     <div className="flex flex-col gap-2 relative">
-      <ImageComponent className=" " source={img1}></ImageComponent>
+      <ImageComponent className=" " source={img1} />
       <div className="flex gap-2">
-        <ImageComponent className=" " source={img2}></ImageComponent>
-        <ImageComponent className=" " source={img3}></ImageComponent>
+        <ImageComponent className=" " source={img2} />
+        <ImageComponent className=" " source={img3} />
       </div>
       <div>
-        <Text className="text-base font-bold mt-4" child={categoryText}></Text>
+        <Text className="text-base font-bold mt-4" child={categoryText} />
       </div>
       <Text
         child="60 Assets"
         className=" text-sm bg-[#202020] inline text-white py-1 px-3 font-thin rounded-sm absolute top-6"
-      ></Text>
+      />
     </div>
   );
 };

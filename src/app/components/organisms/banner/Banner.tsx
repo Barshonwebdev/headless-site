@@ -13,13 +13,13 @@ const Banner = () => {
       <Text
         child="Emotions through images."
         className="text-5xl text-center text-white font-extrabold"
-      ></Text>
+      />
       <Text
         child="Explore our curated collection of premium digital art to inspire your next creative masterpiece."
         className="text-xl text-white text-center font-normal"
-      ></Text>
-      <Searchbox></Searchbox>
-      <SearchSuggest></SearchSuggest>
+      />
+      <Searchbox/>
+      <SearchSuggest/>
     </div>
   );
 };

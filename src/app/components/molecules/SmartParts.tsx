@@ -20,9 +20,9 @@ const SmartParts = ({
 }: TsmartType) => {
   return (
     <div className="">
-      <ImageComponent className={imgclass} source={smartimg}></ImageComponent>
-      <Text child={titletext} className={titleClass}></Text>
-      <Text child={descriptiontext} className={descriptionClass}></Text>
+      <ImageComponent className={imgclass} source={smartimg}/>
+      <Text child={titletext} className={titleClass}/>
+      <Text child={descriptiontext} className={descriptionClass}/>
     </div>
   );
 };

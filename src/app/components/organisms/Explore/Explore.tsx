@@ -21,7 +21,7 @@ const Explore = () => {
         <Text
           className="text-4xl text-center font-bold mb-10 top "
           child="Explore A Vast Collection of Digital Art"
-        ></Text>
+        />
         <div className="grid grid-cols-4">
           <ExploreImg
             arrowclass=" w-10"
@@ -34,7 +34,7 @@ const Explore = () => {
             txtChild="Sky view"
             imgsrc={img1}
             imgclassname="w-full "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass="w-10 "
             bookmarkclass=" "
@@ -46,7 +46,7 @@ const Explore = () => {
             txtChild="Natural view"
             imgsrc={img8}
             imgclassname="w-full "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass="w-10 "
             bookmarkclass=" "
@@ -58,7 +58,7 @@ const Explore = () => {
             txtChild="Digital"
             imgsrc={img3}
             imgclassname="w-full "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass="w-10 "
             bookmarkclass=" "
@@ -70,7 +70,7 @@ const Explore = () => {
             txtChild="Sea view"
             imgsrc={img4}
             imgclassname="w-full "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass="w-10 "
             bookmarkclass=" "
@@ -82,7 +82,7 @@ const Explore = () => {
             txtChild="Foods"
             imgsrc={img5}
             imgclassname="w-full "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass="w-10 "
             bookmarkclass=" "
@@ -94,7 +94,7 @@ const Explore = () => {
             txtChild="Books"
             imgsrc={img6}
             imgclassname="w-full "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass="w-10 "
             bookmarkclass=" "
@@ -106,7 +106,7 @@ const Explore = () => {
             txtChild="Sports"
             imgsrc={img7}
             imgclassname="w-full "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass="w-10 "
             bookmarkclass=" "
@@ -118,13 +118,13 @@ const Explore = () => {
             txtChild="Astronomy"
             imgsrc={img8}
             imgclassname="w-full "
-          ></ExploreImg>
+          />
         </div>
-        <div> 
+        <div>
           <AllPurposeButton
             className="font-medium flex mx-auto bg-black text-white border-black border-2 px-10 py-2 mt-10 rounded"
             child="Browse more"
-          ></AllPurposeButton>
+          />
         </div>
       </div>
     </div>

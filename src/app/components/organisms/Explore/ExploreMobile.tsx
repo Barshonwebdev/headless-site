@@ -13,14 +13,14 @@ import arrowimg from "../../../../../public/images/arrow.svg";
 import premiumimg from "../../../../../public/images/premium.svg";
 import bookmarkimg from "../../../../../public/images/bookmark.svg";
 const ExploreMobile = () => {
-  return ( 
+  return (
     <div>
       {/* mobile view  */}
       <div className=" text-black bgcolor py-20">
         <Text
           className="text-3xl text-center font-bold mb-10"
           child="Explore A Vast Collection of Digital Art"
-        ></Text>
+        />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
           <ExploreImg
             arrowclass=" "
@@ -33,7 +33,7 @@ const ExploreMobile = () => {
             txtChild="Sky view"
             imgsrc={img1}
             imgclassname=" "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass=" "
             bookmarkclass=" "
@@ -45,7 +45,7 @@ const ExploreMobile = () => {
             txtChild="Natural view"
             imgsrc={img8}
             imgclassname=" "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass=" "
             bookmarkclass=" "
@@ -57,7 +57,7 @@ const ExploreMobile = () => {
             txtChild="Digital"
             imgsrc={img3}
             imgclassname=" "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass=" "
             bookmarkclass=" "
@@ -69,7 +69,7 @@ const ExploreMobile = () => {
             txtChild="Sea view"
             imgsrc={img4}
             imgclassname=" "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass=" "
             bookmarkclass=" "
@@ -81,7 +81,7 @@ const ExploreMobile = () => {
             txtChild="Foods"
             imgsrc={img5}
             imgclassname=" "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass=" "
             bookmarkclass=" "
@@ -93,7 +93,7 @@ const ExploreMobile = () => {
             txtChild="Books"
             imgsrc={img6}
             imgclassname=" "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass=" "
             bookmarkclass=" "
@@ -105,7 +105,7 @@ const ExploreMobile = () => {
             txtChild="Sports"
             imgsrc={img7}
             imgclassname=" "
-          ></ExploreImg>
+          />
           <ExploreImg
             arrowclass=" "
             bookmarkclass=" "
@@ -117,13 +117,13 @@ const ExploreMobile = () => {
             txtChild="Astronomy"
             imgsrc={img8}
             imgclassname=" "
-          ></ExploreImg>
+          />
         </div>
         <div className="">
           <AllPurposeButton
             className="font-medium flex mx-auto bg-black text-white border-black border-2 px-10 py-2 mt-16  rounded"
             child="Browse more"
-          ></AllPurposeButton>
+          />
         </div>
       </div>
     </div>

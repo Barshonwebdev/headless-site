@@ -13,13 +13,13 @@ const MobileBanner = () => {
       <Text
         child="Emotions through images."
         className="text-3xl text-center text-white font-extrabold"
-      ></Text>
+      />
       <Text
         child="Explore our curated collection of premium digital art to inspire your next creative masterpiece."
         className="px-5 text-lg text-white text-opacity-85 text-center "
-      ></Text>
-      <Searchbox></Searchbox> 
-      <SearchSuggest></SearchSuggest>
+      />
+      <Searchbox/>
+      <SearchSuggest/>
     </div>
   );
 };
