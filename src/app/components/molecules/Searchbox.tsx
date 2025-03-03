@@ -24,7 +24,7 @@ const Searchbox = () => {
         </div>
 
         <div className="flex ">
-          <SearchInput className="flex md:space-x-52  " />
+          <SearchInput className="flex md:space-x-52 border-0 outline-none me-3 " />
           <AllPurposeButton
             child={
               <IconComponent
